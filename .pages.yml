@@ -1,11 +1,11 @@
 media:
-  input: src/media
+  input: content/media
   output: /media
 content:
   - name: posts
     label: Posts
     type: collection
-    path: 'src/posts'
+    path: 'content/posts'
     view:
       fields: [ title, published, date ]
     fields:
