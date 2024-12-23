@@ -24,7 +24,7 @@ content:
         type: rich-text
   - name: site
     label: Site settings
-    path: content/_data/site.json
+    path: content/data/site.json
     type: file
     fields:
       - name: title
