@@ -7,7 +7,7 @@ content:
     type: collection
     path: 'content/posts'
     view:
-      fields: [ title, published, date ]
+      fields: [ title, published, date, author ]
     fields:
       - name: published
         label: Published
