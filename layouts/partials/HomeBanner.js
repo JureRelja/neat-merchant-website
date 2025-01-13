@@ -181,7 +181,10 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
               </div>
             </div>
           </div>
-          <div className="row border-y border-border py-5">
+
+          {/* brands slider */}
+          <div className="row border-y border-border py-5"></div>
+          {/* <div className="row border-y border-border py-5">
             <div className="animate from-right col-12">
               <Swiper
                 loop={true}
@@ -195,26 +198,28 @@ const HomeBanner = ({ banner: bannerData, brands }) => {
                 modules={[Autoplay]}
                 autoplay={{ delay: 3000 }}
               >
-                {brands.map((brand, index) => (
-                  <SwiperSlide
-                    className=" h-20 cursor-pointer px-6 py-6 grayscale  transition hover:grayscale-0 lg:px-10"
-                    key={"brand-" + index}
-                  >
-                    <div className="relative h-full">
-                      <ImageFallback
-                        className="object-contain"
-                        src={brand}
-                        sizes="100vw"
-                        alt=""
-                        fill={true}
-                        priority={true}
-                      />
-                    </div>
-                  </SwiperSlide>
-                ))}
+                {brands && brands.length > 0 && (
+                  brands.map((brand, index) => (
+                    <SwiperSlide
+                      className=" h-20 cursor-pointer px-6 py-6 grayscale  transition hover:grayscale-0 lg:px-10"
+                      key={"brand-" + index}
+                    >
+                      <div className="relative h-full">
+                        <ImageFallback
+                          className="object-contain"
+                          src={brand}
+                          sizes="100vw"
+                          alt=""
+                          fill={true}
+                          priority={true}
+                        />
+                      </div>
+                    </SwiperSlide>
+                  ))
+                )}
               </Swiper>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -2369,11 +2369,20 @@ select {
 .list-none {
   list-style-type: none;
 }
+.flex-col {
+  flex-direction: column;
+}
 .items-center {
   align-items: center;
 }
+.justify-start {
+  justify-content: flex-start;
+}
 .justify-center {
   justify-content: center;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -3186,8 +3195,9 @@ code::after {
 .group:hover .group-hover\:block {
   display: block;
 }
-.group:hover .group-hover\:max-h-\[106px\] {
-  max-height: 106px;
+.group:hover .group-hover\:max-h-fit {
+  max-height: -moz-fit-content;
+  max-height: fit-content;
 }
 .group:hover .group-hover\:py-2 {
   padding-top: 0.5rem;

@@ -5,6 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
 import { CgClose } from "react-icons/cg";
+import shopifyLogo from "public/images/shopify-logo-green-short.png";
+import ImageFallback from "@components/ImageFallback";
 
 const Header = () => {
   // distructuring the main menu from menu object
@@ -39,6 +41,9 @@ const Header = () => {
   // logo source
   const { logo } = config.site;
 
+
+  console.log(menu.children);
+
   return (
     <>
       <div className="header-height-fix"></div>
@@ -70,15 +75,28 @@ const Header = () => {
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                       </svg>
                     </span>
-                    <ul className="nav-dropdown-list hidden max-h-0 w-full overflow-hidden border border-border-secondary py-0 transition-all duration-500 group-hover:block group-hover:max-h-[106px] group-hover:py-2 lg:invisible lg:absolute lg:left-1/2 lg:block lg:w-auto lg:-translate-x-1/2 lg:group-hover:visible lg:group-hover:opacity-100">
+                    <ul className="nav-dropdown-list hidden max-h-0 w-full overflow-hidden border border-border-secondary py-0 transition-all duration-500 group-hover:block group-hover:max-h-fit group-hover:py-2 lg:invisible lg:absolute lg:left-1/2 lg:block lg:w-auto lg:-translate-x-1/2 lg:group-hover:visible lg:group-hover:opacity-100">
                       {menu.children.map((child, i) => (
                         <li className="nav-dropdown-item" key={`children-${i}`}>
                           <Link
                             href={child.url}
-                            className={`nav-dropdown-link block transition-all ${
+                            className={`nav-dropdown-link transition-all flex justify-start gap-2 items-center ${
                               asPath === child.url && "active"
                             }`}
                           >
+                            {child.image && (
+                               <ImageFallback
+                               width={25}
+                               height={25}
+                               src={child.image}
+                               alt={child.imageAlt}
+                               priority
+                               style={{
+                                 height: 25 + "px",
+                                 width: 25 + "px",
+                               }}
+                             />
+                            )}
                             {child.name}
                           </Link>
                         </li>
@@ -105,6 +123,7 @@ const Header = () => {
                   className="btn btn-primary hidden lg:flex"
                   href={config.nav_button.link}
                 >
+                        
                   {config.nav_button.label}
                 </Link>
               </li>
@@ -113,9 +132,20 @@ const Header = () => {
           <div className="order-1 ml-auto flex items-center md:ml-0">
             {config.nav_button.enable && (
               <Link
-                className="btn btn-primary hidden lg:flex"
+                className="btn btn-primary hidden lg:flex gap-2 justify-center items-center"
                 href={config.nav_button.link}
               >
+                <ImageFallback
+                    width={25}
+                    height={28}
+                    src={shopifyLogo}
+                    alt={"Shopify logo"}
+                    priority
+                    style={{
+                      height: 28 + "px",
+                      width: 25 + "px",
+                    }}
+                  />
                 {config.nav_button.label}
               </Link>
             )}

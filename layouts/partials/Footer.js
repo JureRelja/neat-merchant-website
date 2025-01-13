@@ -6,7 +6,7 @@ import Logo from "@layouts/components/Logo";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import ImageFallback from "@components/ImageFallback";
-import shopifyPartners from "public/images/Shopify-partners-logo-black.png";
+import shopifyPartners from "public/images/Shopify-partners-logo-green.png";
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Socials</h3>
             <div className="mt-5">
-              {email && <Link href={`mailto:${email}`}>{email}</Link>}
+              
               {/* social icons */}
               <Social source={social} className="social-icons mt-5" />
             </div>
@@ -58,6 +58,7 @@ const Footer = () => {
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Location & Contact</h3>
             <ul className="mt-5 leading-10">
+              {email && <Link className="hover:text-primary hover:underline" href={`mailto:${email}`}>{email}</Link>}
               <li>{markdownify(location)}</li>
               {phone && (
                 <li>

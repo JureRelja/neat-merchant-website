@@ -6,7 +6,7 @@
     "logo": "/images/neat-merchant-logo.png",
     "logo_width": "70",
     "logo_height": "70",
-    "logo_text": "Neat Merchant"
+    "logo_text": "Neat Merchant Logo"
   },
 
   "settings": {
@@ -41,10 +41,10 @@
 
   "call_to_action": {
     "enable": true,
-    "title": "Get Andromeda Now",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
+    "title": "Install Shopify Apps",
+    "content": "Our apps are built for every store size, from small to large. Each app comes with a 30-day free trial. Try it now!",
     "button": {
-      "label": "Download The Theme",
+      "label": "Install Apps",
       "link": "https://themefisher.com/products/andromeda-light-nextjs"
     }
   },
