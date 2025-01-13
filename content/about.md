@@ -6,9 +6,9 @@ draft: false
 ## about us
 about_us:
   subtitle: WHO WE ARE
-  title: Hello, We’re Andromeda Here For Your Help
-  content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
-  image: /images/about/01.jpg
+  title: Hello, my name is Jure, what's yours?
+  content: I'm a 21 year old software enginieer living in Croatia. Neat Merchant is my company and I am currently working solo. My main focus is helping merchants by either building Shopify Apps or by providing custom Shopify Development services.
+  image: /images/blog/me.jpg
 
 ## our works
 works:

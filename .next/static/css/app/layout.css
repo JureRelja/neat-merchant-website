@@ -2470,6 +2470,14 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(255 250 243 / var(--tw-bg-opacity, 1));
 }
+.bg-\[\#dbdcff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 220 255 / var(--tw-bg-opacity, 1));
+}
+.bg-\[\#dbe2ff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 226 255 / var(--tw-bg-opacity, 1));
+}
 .fill-current {
   fill: currentColor;
 }
