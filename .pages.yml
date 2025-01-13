@@ -23,17 +23,17 @@ content:
         label: Date
         type: date
       - name: author
-        label: author
+        label: Author
         type: object
         fields:
           - name: name
-            label: First name
+            label: Full name
             type: string
           - name: avatar
-            label: avatar
+            label: Avatar
             type: image
       - name: image
-        label: image
+        label: Featured image
         type: image
       - name: body
         label: Body
