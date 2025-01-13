@@ -6,6 +6,7 @@ date: 2024-12-23
 author:
   name: Jure Reljanovic
   avatar: /images/blog/me.jpg
+image: /images/blog/01.jpg
 ---
 Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
 
