@@ -23,6 +23,8 @@ const BlogPagination = async ({ params }) => {
   const { frontmatter } = postIndex;
   const { title } = frontmatter;
 
+  console.log(currentPosts)
+
   return (
     <GSAPWrapper>
       <SeoMeta title={title} />
