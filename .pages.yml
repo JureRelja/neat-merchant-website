@@ -2,6 +2,10 @@ media:
   input: content/media
   output: /media
 content:
+  - name: authors
+    label: Authors
+    type: collection
+    path: "content/authors"
   - name: posts
     label: Posts
     type: collection
