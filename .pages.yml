@@ -2,10 +2,7 @@ media:
   input: content/media
   output: /media
 content:
-  - name: authors
-    label: Authors
-    type: collection
-    path: "content/authors"
+  
   - name: posts
     label: Posts
     type: collection
@@ -26,17 +23,14 @@ content:
         label: Date
         type: date
       - name: author
-        label: Author
+        label: author
         type: object
         fields:
-          - name: first_name
+          - name: name
             label: First name
             type: string
-          - name: last_name
-            label: Last name
-            type: string
           - name: avatar
-            label: Avatar
+            label: avatar
             type: image
       - name: body
         label: Body
