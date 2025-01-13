@@ -4,8 +4,7 @@ published: true
 description: asdf
 date: 2024-12-23
 author:
-  first_name: Jure
-  last_name: Reljanovic
+  name: Jure Reljanovic
   avatar: /media/me.jpg
 ---
 Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
