@@ -1,9 +1,10 @@
 ---
 banner:
-  title: "We are Shopify Development Experts </br> "
+  title: "Shopify Apps built by engineers who understand eCommerce </br>"
+  description: "Shopify apps and services to help increase speed, AOV and CR of your store."
   image: /images/banner-app.png
   link:
-    label: Get Premium Version
+    label: Explore our Apps
     href: "https://themefisher.com/products/andromeda-nextjs"
 
 ##brands

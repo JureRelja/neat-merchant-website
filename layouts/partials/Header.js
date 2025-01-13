@@ -41,9 +41,6 @@ const Header = () => {
   // logo source
   const { logo } = config.site;
 
-
-  console.log(menu.children);
-
   return (
     <>
       <div className="header-height-fix"></div>
@@ -75,7 +72,7 @@ const Header = () => {
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                       </svg>
                     </span>
-                    <ul className="nav-dropdown-list hidden max-h-0 w-full overflow-hidden border border-border-secondary py-0 transition-all duration-500 group-hover:block group-hover:max-h-fit group-hover:py-2 lg:invisible lg:absolute lg:left-1/2 lg:block lg:w-auto lg:-translate-x-1/2 lg:group-hover:visible lg:group-hover:opacity-100">
+                    <ul className="nav-dropdown-list hidden max-h-0 w-full overflow-hidden border border-border-secondary py-0 transition-all duration-500 group-hover:block group-hover:max-h-fit group-hover:py-2 lg:invisible lg:absolute lg:w-[320px] lg:block lg:left-1/2 lg:-translate-x-1/2 lg:group-hover:visible lg:group-hover:opacity-100">
                       {menu.children.map((child, i) => (
                         <li className="nav-dropdown-item" key={`children-${i}`}>
                           <Link
@@ -97,7 +94,7 @@ const Header = () => {
                                }}
                              />
                             )}
-                            {child.name}
+                            {child.name} 
                           </Link>
                         </li>
                       ))}

@@ -47,29 +47,7 @@
         }
       ]
     },
-    {
-      "name": "Services",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Shopify Custom App Development",
-          "url": "/elements"
-        },
-        {
-          "name": "Shopify Headless Development",
-          "url": "/elements"
-        },
-        {
-          "name": "Shopify Theme Development",
-          "url": "/elements"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        }
-      ]
-    },
+    
     {
       "name": "Blog",
       "url": "/posts"
@@ -98,3 +76,5 @@
     }
   ]
 }
+
+

@@ -3333,6 +3333,27 @@ code::after {
     width: auto;
   }
 
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .lg\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .lg\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .lg\:w-\[350px\] {
+    width: 350px;
+  }
+
+  .lg\:w-\[320px\] {
+    width: 320px;
+  }
+
   .lg\:max-w-\[480px\] {
     max-width: 480px;
   }

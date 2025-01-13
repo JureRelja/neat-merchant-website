@@ -18,7 +18,7 @@ const Home = async () => {
       <SeoMeta title="Home" />
       <HomeBanner banner={banner} brands={brands} />
       <Features features={features} />
-      <ShortIntro intro={intro} />
+      {/* <ShortIntro intro={intro} /> */}
       <SpecialFeatures speciality={speciality} />
       <Testimonial testimonial={testimonial} />
       <Cta />
