@@ -15,6 +15,8 @@ const PostSingle = ({ frontmatter, content, recentPosts }) => {
   description = description ? description : content.slice(0, 120);
   const { disqus } = config;
 
+  console.log(description, title)
+
   return (
     <>
       <SeoMeta title={title} description={description} image={image} />
@@ -56,13 +58,13 @@ const PostSingle = ({ frontmatter, content, recentPosts }) => {
                   <MDXContent content={content} />
                 </div>
               </div>
-              {disqus.enable && (
+              {/* {disqus.enable && (
                 <div className="fade row justify-center ">
                   <div className="lg:col-8">
                     <DisqussEmbed />
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </article>
 
