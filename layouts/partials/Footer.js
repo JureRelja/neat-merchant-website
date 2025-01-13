@@ -5,6 +5,8 @@ import social from "@config/social.json";
 import Logo from "@layouts/components/Logo";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
+import ImageFallback from "@components/ImageFallback";
+import shopifyPartners from "public/images/Shopify-partners-logo-black.png";
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
@@ -16,6 +18,18 @@ const Footer = () => {
           <div className="animate md:col-6 lg:col-3">
             <Logo />
             {markdownify(footer_content, "p", "mt-3")}
+            <ImageFallback
+            className="mt-4"
+              width={300}
+              height={50}
+              src={shopifyPartners}
+              alt={"Shopify Partners Logo"}
+              priority
+              style={{
+                height: 50 + "px",
+                width: 300 + "px",
+              }}
+            />
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Socials</h3>

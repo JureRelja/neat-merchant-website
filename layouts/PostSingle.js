@@ -15,8 +15,6 @@ const PostSingle = ({ frontmatter, content, recentPosts }) => {
   description = description ? description : content.slice(0, 120);
   const { disqus } = config;
 
-  console.log(description, title)
-
   return (
     <>
       <SeoMeta title={title} description={description} image={image} />
