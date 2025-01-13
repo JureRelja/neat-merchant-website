@@ -1,5 +1,5 @@
 ---
-title: The Real Product From the Buyers improvements in Overflow basis.
+title: The Real Product From the Buyers improvements in Overflow basis test
 published: true
 description: asdf
 date: 2024-12-23
