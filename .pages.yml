@@ -32,6 +32,9 @@ content:
           - name: avatar
             label: avatar
             type: image
+      - name: image
+        label: image
+        type: image
       - name: body
         label: Body
         type: rich-text
