@@ -3096,11 +3096,6 @@ code::after {
 }
 @media (min-width: 992px) {
 
-  .lg\:col-1 {
-    flex: 0 0 auto;
-    width: 8.333333333333334%;
-  }
-
   .lg\:col-2 {
     flex: 0 0 auto;
     width: 16.666666666666668%;
