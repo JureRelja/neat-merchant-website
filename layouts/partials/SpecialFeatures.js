@@ -4,15 +4,16 @@ import { markdownify } from "@lib/utils/textConverter";
 const SpecialFeatures = ({ speciality }) => {
   return (
     <section className="section">
-      <div className="container">
-        <div className="row items-center justify-center">
-          <div className="animate lg:col-6 lg:order-2">
+      <div className="container ">
+        <div className="row items-center justify-center  mb-20 lg:mb-32">
+          <div className="animate lg:col-6 lg:order-2 pb-5 lg:pb-0">
             <ImageFallback
               className="mx-auto"
               src={speciality.primary.image}
               width={575}
               height={511}
               alt="primary speciality"
+              style= {{ width: 575 + "px", height: 511 + "px"}}
             />
           </div>
           <div className="animate lg:col-5 lg:order-1">
@@ -26,12 +27,12 @@ const SpecialFeatures = ({ speciality }) => {
           </div>
         </div>
         <div className="row items-center">
-          <div className="animate lg:col-6">
+          <div className="animate lg:col-6 pb-5 lg:pb-0">
             <ImageFallback
               className="mx-auto"
               src={speciality.secondary.image}
-              width={575}
-              height={511}
+              width={636}
+              height={486}
               alt="secondary speciality"
             />
           </div>

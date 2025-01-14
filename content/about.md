@@ -5,9 +5,9 @@ draft: false
 
 ## about us
 about_us:
-  subtitle: WHO WE ARE
-  title: Hello, my name is Jure, what's yours?
-  content: I'm a 21 year old software enginieer living in Croatia. Neat Merchant is my company and I am currently working solo. My main focus is helping merchants by either building Shopify Apps or by providing custom Shopify Development services.
+  subtitle: ABOUT US
+  title: Hello, my name is Jure
+  content: I'm a 21-year-old software engineer living in Croatia. Neat Merchant is my company, and I am currently working solo. My main focus is helping merchants by either building Shopify Apps or providing custom Shopify Development services. In my free time, I like to go to the gym or go out for a run.
   image: /images/blog/me.jpg
 
 ## our works

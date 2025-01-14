@@ -2276,6 +2276,15 @@ select {
 .mt-9 {
   margin-top: 2.25rem;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+.mb-20 {
+  margin-bottom: 5rem;
+}
+.mb-32 {
+  margin-bottom: 8rem;
+}
 .block {
   display: block;
 }
@@ -2384,6 +2393,12 @@ select {
 .gap-2 {
   gap: 0.5rem;
 }
+.gap-4 {
+  gap: 1rem;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
@@ -2451,9 +2466,9 @@ select {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
-.bg-\[\#ffe6db\] {
+.bg-\[\#dbe2ff\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 230 219 / var(--tw-bg-opacity, 1));
+  background-color: rgb(219 226 255 / var(--tw-bg-opacity, 1));
 }
 .bg-body {
   background-color: #ffff;
@@ -2469,14 +2484,6 @@ select {
 .bg-theme-light {
   --tw-bg-opacity: 1;
   background-color: rgb(255 250 243 / var(--tw-bg-opacity, 1));
-}
-.bg-\[\#dbdcff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(219 220 255 / var(--tw-bg-opacity, 1));
-}
-.bg-\[\#dbe2ff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(219 226 255 / var(--tw-bg-opacity, 1));
 }
 .fill-current {
   fill: currentColor;
@@ -2594,6 +2601,9 @@ select {
 }
 .pt-\[40px\] {
   padding-top: 40px;
+}
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 .text-left {
   text-align: left;
@@ -3317,6 +3327,10 @@ code::after {
     margin-top: 2rem;
   }
 
+  .lg\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3333,33 +3347,12 @@ code::after {
     height: 90px;
   }
 
-  .lg\:w-\[90px\] {
-    width: 90px;
-  }
-
-  .lg\:w-auto {
-    width: auto;
-  }
-
-  .lg\:w-fit {
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
-  .lg\:w-\[300px\] {
-    width: 300px;
-  }
-
-  .lg\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .lg\:w-\[350px\] {
-    width: 350px;
-  }
-
   .lg\:w-\[320px\] {
     width: 320px;
+  }
+
+  .lg\:w-\[90px\] {
+    width: 90px;
   }
 
   .lg\:max-w-\[480px\] {
@@ -3388,6 +3381,10 @@ code::after {
 
   .lg\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .lg\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .lg\:text-8xl {

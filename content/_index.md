@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Shopify Apps built by engineers who understand eCommerce </br>"
+  title: "Shopify Apps built by engineers who understand E-commerce </br>"
   description: "Shopify apps and services to help increase speed, AOV and CR of your store."
   image: /images/banner-app.png
   link:
@@ -56,14 +56,14 @@ features:
 speciality:
   primary:
     title: We Know Our Way Around Code
-    subtitle: PRIMARY SPECIALITY
+    subtitle: CARE FOR CODE
     description: We are a small team of highly skilled individuals who have a lot of experience building different scale systems, e-commerce solutions, and integrating with other systems to make sure everything works flawlessly. <br/> <br/> In e-commerce, every second counts. The slower your store is, the more customers you lose. That's why we focus on only deploying the fastest and highest quality code.
-    image: /images/features-01.png
+    image: /images/shopify-code-v2.png
   secondary:
-    title: We Don't Write Code For No Reason
-    subtitle: SECONDARY SPECIALITY
+    title: We Write Code To Increase Revenue
+    subtitle: CARE FOR E-COMMERCE
     description: We don't write code just for the sake of writing code. Every piece of code needs to have a reason, and a desired outcome. Our goal is to help you increase either AOV, CR, loading speed, etc., not write a perfect nerdy code. <br/> <br/> E-commerce is a sector that we care for and where we see our future. By writing code only when necessary, we can help more merchants like you and elevate e-commerce.
-    image: /images/features-02.png
+    image: /images/shopify-analytics.png
 
 
 #Testimonial

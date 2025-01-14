@@ -1,14 +1,10 @@
 {
   "pages": {
-    "/not-found": [
+    "/[regular]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/css/app/[regular]/page.css",
+      "static/chunks/app/[regular]/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -16,28 +12,32 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/posts/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/posts/page.js"
+    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/posts/[single]/page": [
+    "/apps/[single]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/posts/[single]/page.css",
-      "static/chunks/app/posts/[single]/page.js"
+      "static/css/app/apps/[single]/page.css",
+      "static/chunks/app/apps/[single]/page.js"
     ],
-    "/[regular]/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[regular]/page.css",
-      "static/chunks/app/[regular]/page.js"
-    ],
-    "/posts/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/posts/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
