@@ -70,6 +70,14 @@
       "name": "Terms & Conditions",
       "url": "/terms-policy"
     }
+  ],
+  "footerApps": [
+    {
+      "name": "NeatBundles",
+      "url": "/apps/neatbundles",
+      "image": "/images/apps/neat-bundles-medium-logo-square.png",
+      "imageAlt": "NeatBundles: Easy Mix & Match shopify app"
+    }
   ]
 }
 

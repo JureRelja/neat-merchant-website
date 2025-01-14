@@ -2222,6 +2222,9 @@ select {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-20 {
+  margin-bottom: 5rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -2275,15 +2278,6 @@ select {
 }
 .mt-9 {
   margin-top: 2.25rem;
-}
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-.mb-20 {
-  margin-bottom: 5rem;
-}
-.mb-32 {
-  margin-bottom: 8rem;
 }
 .block {
   display: block;
@@ -2392,12 +2386,6 @@ select {
 }
 .gap-2 {
   gap: 0.5rem;
-}
-.gap-4 {
-  gap: 1rem;
-}
-.gap-5 {
-  gap: 1.25rem;
 }
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -2584,6 +2572,9 @@ select {
 .pb-16 {
   padding-bottom: 4rem;
 }
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
 .pl-0 {
   padding-left: 0px;
 }
@@ -2601,9 +2592,6 @@ select {
 }
 .pt-\[40px\] {
   padding-top: 40px;
-}
-.pb-5 {
-  padding-bottom: 1.25rem;
 }
 .text-left {
   text-align: left;
@@ -3108,6 +3096,16 @@ code::after {
 }
 @media (min-width: 992px) {
 
+  .lg\:col-1 {
+    flex: 0 0 auto;
+    width: 8.333333333333334%;
+  }
+
+  .lg\:col-2 {
+    flex: 0 0 auto;
+    width: 16.666666666666668%;
+  }
+
   .lg\:col-3 {
     flex: 0 0 auto;
     width: 25%;
@@ -3319,16 +3317,16 @@ code::after {
     order: 2;
   }
 
+  .lg\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }
 
   .lg\:mt-8 {
     margin-top: 2rem;
-  }
-
-  .lg\:mb-32 {
-    margin-bottom: 8rem;
   }
 
   .lg\:block {
@@ -3379,12 +3377,12 @@ code::after {
     padding-right: 5rem;
   }
 
-  .lg\:pr-10 {
-    padding-right: 2.5rem;
-  }
-
   .lg\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .lg\:pr-10 {
+    padding-right: 2.5rem;
   }
 
   .lg\:text-8xl {

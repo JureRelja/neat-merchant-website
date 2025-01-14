@@ -31,15 +31,34 @@ const Footer = () => {
               }}
             />
           </div>
-          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Socials</h3>
-            <div className="mt-5">
-              
-              {/* social icons */}
-              <Social source={social} className="social-icons mt-5" />
-            </div>
+          <div className="animate mt-8 md:col-6 lg:col-2 lg:mt-0">
+            <h3 className="h5">Shopify Apps</h3>
+            <ul className="mt-5 leading-10">
+              {menu.footerApps.map((app) => (
+                <li key={app.name}>
+                  <Link
+                    href={app.url}
+                    className=" hover:text-primary hover:underline flex justify-start gap-2 items-center"
+                  >
+                    <ImageFallback
+                      width={25}
+                      height={25}
+                      src={app.image}
+                      alt={app.imageAlt}
+                      priority
+                      style={{
+                        height: 25 + "px",
+                        width: 25 + "px",
+                      }}
+                    />
+                    {app.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
+          
+          <div className="animate mt-8 md:col-6 lg:col-2 lg:mt-0">
             <h3 className="h5">Quick Links</h3>
             {/* footer menu */}
             <ul className="mt-5 leading-10">
@@ -55,11 +74,19 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Location & Contact</h3>
+          <div className="animate mt-8 md:col-6 lg:col-2 lg:mt-0">
+            <h3 className="h5">Socials</h3>
+            <div className="mt-5">
+              
+              {/* social icons */}
+              <Social source={social} className="social-icons mt-5" />
+            </div>
+          </div>
+          <div className="animate mt-8 md:col-6 lg:col-2 lg:mt-0">
+            <h3 className="h5">Contact</h3>
             <ul className="mt-5 leading-10">
               {email && <Link className="hover:text-primary hover:underline" href={`mailto:${email}`}>{email}</Link>}
-              <li>{markdownify(location)}</li>
+              {/* <li>{markdownify(location)}</li> */}
               {phone && (
                 <li>
                   <Link href={`tel:${phone}`}>{phone}</Link>
