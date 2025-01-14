@@ -38,6 +38,12 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
+    ],
+    "/apps/[single]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/apps/[single]/page.css",
+      "static/chunks/app/apps/[single]/page.js"
     ]
   }
 }

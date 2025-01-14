@@ -25,8 +25,8 @@ features:
   title: Elements To </br> Get You Started
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
   list:
-    - icon: 'lock' # feather icon: https://feathericons.com/
-      title: Updated Security
+    - icon: 'shopping-cart' # feather icon: https://feathericons.com/
+      title: Shopify Theme
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
     - icon: 'wind'
       title: Magnetic Turning

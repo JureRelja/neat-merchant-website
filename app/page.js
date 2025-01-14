@@ -12,16 +12,16 @@ import { sortByDate } from "@lib/utils/sortFunctions";
 import config from "@config/config.json";
 const { blog_folder } = config.settings;
 
-const Home = async ({ params}) => {
+const Home = async ({ params }) => {
   const homepage = await getListPage("content/_index.md");
   const { frontmatter } = homepage;
   const { banner, brands, features, intro, speciality, testimonial } =
     frontmatter;
 
-     const { single } = params;
-      const posts = await getSinglePage(`content/${blog_folder}`);
-      const post = posts.filter((p) => p.slug == single);
-      const recentPosts = sortByDate(posts).filter((post) => post.slug !== single);
+  const { single } = params;
+  const posts = await getSinglePage(`content/${blog_folder}`);
+  const post = posts.filter((p) => p.slug == single);
+  const recentPosts = sortByDate(posts).filter((post) => post.slug !== single);
 
   return (
     <GSAPWrapper>
