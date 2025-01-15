@@ -18,7 +18,6 @@ const Article = async ({ params }) => {
     <GSAPWrapper>
       <SeoMeta title={title} />
       <AppSingle content={frontmatter} />
-      <Cta />
     </GSAPWrapper>
   );
 };

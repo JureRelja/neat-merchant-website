@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { markdownify } from "@lib/utils/textConverter";
 import { Autoplay } from "swiper";

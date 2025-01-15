@@ -1,21 +1,22 @@
-"use client";
-
 import { markdownify } from "@lib/utils/textConverter";
-import { Autoplay } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Banner from "./components/Banner";
 import Circle from "./components/Circle";
-import Cta from "./components/Cta";
+import AppCta from "./components/AppCta";
 import ImageFallback from "./components/ImageFallback";
 import VideoPopup from "./components/VideoPopup";
+import Link from "next/link";
+import shopifyInstallLogo from "public/images/badge-shopify-app-store-dark.png";
 
 const AppSingle = ({ content }) => {
 
   return (
-      <section className="section pt-0">
-        {/* <Banner title={title} /> */}
-        {/* About */}
+      <section className="section pt-0 pb-0">
+        {/* App */}
         <div className="section container">
+           <div className="animate flex justify-center items-center flex-col mb-10">
+            {markdownify(content.headline, "h2", "")}
+            {markdownify(content.subtitle, "p", "mt-10")}
+            </div>
+
           <div className="row items-center justify-center">
             <div className="animate md:col-6 md:order-2 lg:col-5">
               <div className="about-image relative p-[60px]">
@@ -61,85 +62,25 @@ const AppSingle = ({ content }) => {
               </div>
             </div>
             <div className="animate md:col-6 md:order-1 lg:col-4">
-              {/* <p>{content.subtitle}</p>
+              <p>SHOPIFY APP</p>
               {markdownify(content.title, "h2", "section-title bar-left mt-4")}
-              {markdownify(content.content, "p", "mt-10")} */}
+              {markdownify(content.long_description, "p", "mt-10")}
+              <Link href={content.link} target="_blank" className="hover:opacity-80 mt-10 flex gap-2 justify-end items-center">
+                <ImageFallback
+                    width={320}
+                    height={80}
+                    src={shopifyInstallLogo}
+                    alt={"Shopify Badge logo"}
+                    priority
+                    style={{
+                      height: 80 + "px",
+                      width: 320 + "px",
+                    }}
+                  />
+              </Link>
             </div>
           </div>
         </div>
-
-        {/* Works */}
-        {/* <div className="section container">
-          <div className="animate text-center">
-            <p>{works.subtitle}</p>
-            {markdownify(works.title, "h2", "section-title mt-4")}
-            {markdownify(works.content, "p", "mt-10")}
-          </div>
-          <div className="row mt-10 justify-center">
-            {works.list.map((work, index) => (
-              <div key={"work-" + index} className="mt-10 md:col-6 lg:col-5">
-                <div className="animate text-center md:px-6 xl:px-12">
-                  {markdownify(work.title, "h3", "h4")}
-                  {markdownify(work.content, "p", "mt-2")}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div> */}
-
-        {/* Mission */}
-        {/* <div className="section container">
-          <div className="row items-center justify-center">
-            <div className="animate md:col-6 lg:col-5">
-              <div className="about-image relative p-[60px]">
-                <ImageFallback
-                  className="animate relative w-full rounded-2xl"
-                  src={mission.image}
-                  width={425}
-                  height={487}
-                  alt=""
-                />
-                <Circle
-                  className="left-4 top-4 z-[-1]"
-                  width={85}
-                  height={85}
-                />
-                <Circle
-                  width={37}
-                  height={37}
-                  fill={false}
-                  className="right-10 top-20 z-[-1]"
-                />
-                <Circle
-                  className="right-12 top-1/2 -z-[1]"
-                  width={24}
-                  height={24}
-                />
-                <Circle
-                  className="bottom-6 right-6 z-[-1]"
-                  width={85}
-                  height={85}
-                />
-                <Circle
-                  className="left-12 top-1/2 z-[-1]"
-                  width={20}
-                  height={20}
-                />
-                <Circle
-                  className="bottom-12 left-8 z-[1]"
-                  width={47}
-                  height={47}
-                  fill={false}
-                />
-              </div>
-            </div>
-            <div className="animate md:col-6 lg:col-4">
-              <p>{mission.subtitle}</p>
-              {markdownify(mission.title, "h2", "section-title bar-left mt-4")}
-              {markdownify(mission.content, "p", "mt-10")}
-            </div>
-          </div>
-        </div> */}
 
         {/* Video */}
         <div className="container-xl relative">
@@ -189,17 +130,17 @@ const AppSingle = ({ content }) => {
           </div>
           <div className="row items-center justify-center py-[90px]">
             <div className="md:col-6 xl:col-4">
-              {/* <div className="animate p-5">
-                <p>{video.subtitle}</p>
-                {markdownify(video.title, "h2", "mt-4 section-title bar-left")}
-                {markdownify(video.description, "p", "mt-10")}
-              </div> */}
+              <div className="animate p-5">
+                <p>{content.video_subtitle}</p>
+                {markdownify(content.video_title, "h2", "mt-4 section-title bar-left")}
+                {markdownify(content.video_description, "p", "mt-10")}
+              </div>
             </div>
             <div className="md:col-6 xl:col-5">
               <div className="px-4 ">
                 <VideoPopup
-                  id={content.video_id}
-                  // thumbnail={video.thumbnail}
+                  id={content.youtube_video_id}
+                  thumbnail={content.youtube_video_tumbnail}
                   width={540}
                   height={585}
                 />
@@ -208,11 +149,29 @@ const AppSingle = ({ content }) => {
           </div>
         </div>
 
-       
+        {/* Works */}
+        <div className="section container">
+          <div className="animate text-center">
+            <p>{content.features.subtitle}</p>
+            {markdownify(content.features.title, "h2", "section-title mt-4")}
+            {markdownify(content.features.content, "p", "mt-10")}
+          </div>
+          <div className="row mt-10 justify-center">
+            {content.features.list.map((work, index) => (
+              <div key={"work-" + index} className="mt-10 md:col-6 lg:col-5">
+                <div className="animate text-center md:px-6 xl:px-12">
+                  {markdownify(work.title, "h3", "h4")}
+                  {markdownify(work.content, "p", "mt-2")}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        
 
        
-
-      
+        <AppCta  title={content.cta_title} content={content.cta_content} enable={content.enable} link={content.link} />
       </section>
   );
 };

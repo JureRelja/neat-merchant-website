@@ -6,8 +6,10 @@ import SeoMeta from "@layouts/partials/SeoMeta";
 import ShortIntro from "@layouts/partials/ShortIntro";
 import SpecialFeatures from "@layouts/partials/SpecialFeatures";
 import Testimonial from "@layouts/partials/Testimonial";
-import { getListPage, getSinglePage } from "@lib/contentParser";
+import { getListPage, getSinglePage, getAppsPage } from "@lib/contentParser";
 import Post from "@layouts/partials/Post";
+import AppSingle from "@layouts/AppSingle";
+import { markdownify } from "@lib/utils/textConverter";
 import { sortByDate } from "@lib/utils/sortFunctions";
 import config from "@config/config.json";
 const { blog_folder } = config.settings;
@@ -23,11 +25,22 @@ const Home = async ({ params }) => {
   const post = posts.filter((p) => p.slug == single);
   const recentPosts = sortByDate(posts).filter((post) => post.slug !== single);
 
+  const appContent = await getAppsPage(`neatbundles`);
+  const appContentFrontmatter = appContent.frontmatter
+
   return (
     <GSAPWrapper>
       <SeoMeta title="Home" />
       <HomeBanner banner={banner} brands={brands} />
-      <Features features={features} />
+      {/* Featured app */}
+      <div className="animate flex justify-center items-center flex-col mb-10">
+        {markdownify("Our Recent Shopify App", "h1", "section-title mb-10")}
+        <AppSingle content={appContentFrontmatter} />
+      </div>
+      
+      <div className="row border-y border-border py-5"></div>
+      
+      {/* <Features features={features} /> */}
       {/* <ShortIntro intro={intro} /> */}
       <SpecialFeatures speciality={speciality} />
       {/* <Testimonial testimonial={testimonial} /> */}

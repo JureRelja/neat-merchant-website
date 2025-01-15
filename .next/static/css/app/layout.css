@@ -2279,6 +2279,9 @@ select {
 .mt-9 {
   margin-top: 2.25rem;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .block {
   display: block;
 }
@@ -2380,6 +2383,9 @@ select {
 }
 .justify-start {
   justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
@@ -2592,6 +2598,9 @@ select {
 }
 .pt-\[40px\] {
   padding-top: 40px;
+}
+.pb-0 {
+  padding-bottom: 0px;
 }
 .text-left {
   text-align: left;
@@ -3193,6 +3202,12 @@ code::after {
 }
 .hover\:no-underline:hover {
   text-decoration-line: none;
+}
+.hover\:opacity-80:hover {
+  opacity: 0.8;
+}
+.hover\:opacity-90:hover {
+  opacity: 0.9;
 }
 .hover\:shadow-none:hover {
   --tw-shadow: 0 0 #0000;
