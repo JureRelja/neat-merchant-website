@@ -9,13 +9,9 @@ import Cta from "./components/Cta";
 import ImageFallback from "./components/ImageFallback";
 import VideoPopup from "./components/VideoPopup";
 
-const About = ({ content }) => {
-
-
-    const { about_us } = content;
+const AppSingle = ({ content }) => {
 
   return (
-    <>
       <section className="section pt-0">
         {/* <Banner title={title} /> */}
         {/* About */}
@@ -25,7 +21,7 @@ const About = ({ content }) => {
               <div className="about-image relative p-[60px]">
                 <ImageFallback
                   className="animate relative w-full rounded-2xl"
-                  src={about_us.image}
+                  src={content.main_image}
                   width={425}
                   height={487}
                   alt=""
@@ -65,9 +61,9 @@ const About = ({ content }) => {
               </div>
             </div>
             <div className="animate md:col-6 md:order-1 lg:col-4">
-              {/* <p>{about_us.subtitle}</p>
-              {markdownify(about_us.title, "h2", "section-title bar-left mt-4")}
-              {markdownify(about_us.content, "p", "mt-10")} */}
+              {/* <p>{content.subtitle}</p>
+              {markdownify(content.title, "h2", "section-title bar-left mt-4")}
+              {markdownify(content.content, "p", "mt-10")} */}
             </div>
           </div>
         </div>
@@ -146,7 +142,7 @@ const About = ({ content }) => {
         </div> */}
 
         {/* Video */}
-        {/* <div className="container-xl relative">
+        <div className="container-xl relative">
           <div className="bg-theme absolute left-0 top-0 w-full">
             <Circle
               className="left-[7%] top-[21%]"
@@ -193,24 +189,24 @@ const About = ({ content }) => {
           </div>
           <div className="row items-center justify-center py-[90px]">
             <div className="md:col-6 xl:col-4">
-              <div className="animate p-5">
+              {/* <div className="animate p-5">
                 <p>{video.subtitle}</p>
                 {markdownify(video.title, "h2", "mt-4 section-title bar-left")}
                 {markdownify(video.description, "p", "mt-10")}
-              </div>
+              </div> */}
             </div>
             <div className="md:col-6 xl:col-5">
               <div className="px-4 ">
                 <VideoPopup
-                  id={video.video_id}
-                  thumbnail={video.thumbnail}
+                  id={content.video_id}
+                  // thumbnail={video.thumbnail}
                   width={540}
                   height={585}
                 />
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
        
 
@@ -218,9 +214,7 @@ const About = ({ content }) => {
 
       
       </section>
-      <Cta />
-    </>
   );
 };
 
-export default About;
+export default AppSingle;

@@ -6,6 +6,7 @@ import TwSizeIndicator from "@layouts/components/TwSizeIndicator";
 import Footer from "@layouts/partials/Footer";
 import Header from "@layouts/partials/Header";
 import "../styles/style.scss";
+import Cta from "@layouts/components/Cta";
 
 export default function RootLayout({ children }) {
   // import google font css
