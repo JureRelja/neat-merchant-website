@@ -129,6 +129,7 @@ const Header = () => {
           <div className="order-1 ml-auto flex items-center md:ml-0">
             {config.nav_button.enable && (
               <Link
+              target="_blank"
                 className="btn btn-primary hidden lg:flex gap-2 justify-center items-center"
                 href={config.nav_button.link}
               >

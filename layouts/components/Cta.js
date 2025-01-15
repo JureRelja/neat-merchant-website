@@ -17,7 +17,7 @@ function Cta() {
             {markdownify(title, "h2", "section-title")}
             {markdownify(content, "p", "mt-10")}
             
-            <Link href={button.link} className="btn btn-primary mt-10 flex gap-2 justify-center items-center">
+            <Link href={button.link} target="_blank" className="btn btn-primary mt-10 flex gap-2 justify-center items-center">
             <ImageFallback
                     width={25}
                     height={28}

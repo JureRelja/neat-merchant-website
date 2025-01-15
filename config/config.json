@@ -30,12 +30,12 @@
   "nav_button": {
     "enable": true,
     "label": "Explore Apps",
-    "link": "https://themefisher.com/products/andromeda-light-nextjs"
+    "link": "https://apps.shopify.com/partners/growhr-llc"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
+    "meta_author": "Neat Merchant",
+    "meta_image": "/images/neat-merchant-logo.png",
     "meta_description": "Neat Merchant creates Shopify apps that help you grow your store. Our apps are designed to help you increase sales, improve customer experience, and save time."
   },
 
@@ -45,7 +45,7 @@
     "content": "Our apps are built for every store size, from small to large. Each app comes with a 30-day free trial. Try them now!",
     "button": {
       "label": "Install Apps",
-      "link": "https://themefisher.com/products/andromeda-light-nextjs"
+      "link": "https://apps.shopify.com/partners/growhr-llc"
     }
   },
 
