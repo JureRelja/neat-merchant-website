@@ -2,10 +2,10 @@
 banner:
   title: "Shopify Apps built by engineers who understand E-commerce </br>"
   description: "Shopify apps and services to help increase speed, AOV and CR of your store."
-  image: /images/banner-app.png
+  image: /images/home-banner-transparent.png
   link:
     label: Explore our Apps
-    href: "https://themefisher.com/products/andromeda-nextjs"
+    href: "https://apps.shopify.com/partners/growhr-llc"
 
 ##brands
 brands:
