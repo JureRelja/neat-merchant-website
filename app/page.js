@@ -44,6 +44,9 @@ const Home = async ({ params }) => {
       {/* <ShortIntro intro={intro} /> */}
       <SpecialFeatures speciality={speciality} />
       {/* <Testimonial testimonial={testimonial} /> */}
+
+      {/* Recent articles */}
+      {recentPosts.length > 0 &&
       <div className="section mt-16">
             <h2 className="section-title text-center">Recent Articles</h2>
             <div className="row justify-center">
@@ -54,6 +57,7 @@ const Home = async ({ params }) => {
               ))}
             </div>
           </div>
+      }
       <Cta />
     </GSAPWrapper>
   );

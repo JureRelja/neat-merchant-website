@@ -1,7 +1,7 @@
 ---
 banner:
   title: "Shopify Apps built by engineers who understand E-commerce </br>"
-  description: "Shopify apps and services to help increase speed, AOV and CR of your store."
+  description: "Shopify apps and services to help increase the speed, AOV, and CR of your store."
   image: /images/home-banner-transparent.png
   link:
     label: Explore our Apps

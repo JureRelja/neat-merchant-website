@@ -2216,6 +2216,9 @@ select {
 .mb-0 {
   margin-bottom: 0px;
 }
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -2278,9 +2281,6 @@ select {
 }
 .mt-9 {
   margin-top: 2.25rem;
-}
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 .block {
   display: block;
@@ -2572,6 +2572,9 @@ select {
   padding-top: 90px;
   padding-bottom: 90px;
 }
+.pb-0 {
+  padding-bottom: 0px;
+}
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -2598,9 +2601,6 @@ select {
 }
 .pt-\[40px\] {
   padding-top: 40px;
-}
-.pb-0 {
-  padding-bottom: 0px;
 }
 .text-left {
   text-align: left;
@@ -3205,9 +3205,6 @@ code::after {
 }
 .hover\:opacity-80:hover {
   opacity: 0.8;
-}
-.hover\:opacity-90:hover {
-  opacity: 0.9;
 }
 .hover\:shadow-none:hover {
   --tw-shadow: 0 0 #0000;
