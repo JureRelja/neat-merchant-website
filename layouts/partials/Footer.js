@@ -6,7 +6,7 @@ import Logo from "@layouts/components/Logo";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
 import ImageFallback from "@components/ImageFallback";
-import shopifyPartners from "public/images/Shopify-partners-logo-green.png";
+import shopifyPartners from "public/images/shopify-partners-logo-green.png";
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
