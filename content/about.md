@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Neat Merchant - About"
 layout: about
 draft: false
 

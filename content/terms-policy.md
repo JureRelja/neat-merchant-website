@@ -1,5 +1,5 @@
 ---
-title: Terms & condition
+title: Neat Merchat - Terms & condition
 description: "this is meta description"
 draft: false
 ---

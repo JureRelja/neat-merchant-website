@@ -30,7 +30,7 @@ const Home = async ({ params }) => {
 
   return (
     <GSAPWrapper>
-      <SeoMeta title="Home" />
+      <SeoMeta title="Neat Merchant - Shopify Apps & Services" />
       <HomeBanner banner={banner} brands={brands} />
       {/* Featured app */}
       <div className="animate flex justify-center items-center flex-col mb-10">
