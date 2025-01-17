@@ -6,17 +6,24 @@ draft: false
 
 #### 1. Definitions
 
-We collect certain identifying personal data when you sign up to our Service such as your name, email address, PayPal address (if different from email address), and telephone number. The personal data we collect from you is disclosed only in accordance with our Terms of Service and/or this Privacy Policy.Conclude collects Slack account and access information from Users for the purposes of connecting to the Slack API and to authenticate access to information on the Conclude website. Whenever you visit our Site, we may collect non-identifying information from you, such as referring URL, browser, operating system, cookie information, and Internet Service Provider. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, this information alone cannot usually be used to identify you.The term “personal data” does not include any anonymized and aggregated data made on the basis of personal data, which are wholly owned by Conclude.
+This website is operated by GrowHR LLC (Doing Business As Neat Merhant). Throughout the site, the terms “we”, “us” and “our” refer to GrowHR LLC. GrowHR LLC offers this website,
+including all information, tools and Services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies
+and notices stated here.
+
+By visiting our site and/ or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions
+(“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms
+of Service apply to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/ or contributors of
+content.
+
+Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by
+these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any Services. If
+these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.
 
 #### 2. General Terms
 
 ##### Service Provided AS IS
 
-The Service is provided for free during this pilot project, and is provided “as is” with no warranty. Conclude will provide User support for the Service, however; Conclude is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
-
-##### Interoperation with Slack
-
-The Service interoperates with Slack.com, and depends on the continuing availability and access to Slack. If for any reason Conclude cannot access or use Slack (including without limitation, change in terms or increase in fees charged by Slack), Conclude may not be able to provide all of the functions of its Service. No refund or credit, if applicable, will be provided for temporary unavailability of Slack (for example, maintenance windows).
+The Service is provided for free during this pilot project, and is provided “as is” with no warranty. Neat Merchant will provide User support for the Service, however; Neat Merchant is not committed to any level of service or availability of the Service. A further description of the Service and our user support is available at the Site.
 
 ##### Company Liability
 
@@ -26,8 +33,8 @@ If you enter into this agreement on behalf of a company, you hereby agree that t
 
 1. must keep passwords secure and confidential;
 2. are solely responsible for User Data and all activity in their account while using the Service;
-3. must use commercially reasonable efforts to prevent unauthorized access to their account, and notify Conclude promptly of any such unauthorized access; and
-4. may use the Service only in accordance with Conclude’s online user guide and all applicable laws and regulations.
+3. must use commercially reasonable efforts to prevent unauthorized access to their account, and notify Neat promptly of any such unauthorized access; and
+4. may use the Service only in accordance with Neat Merchant’s online user guide and all applicable laws and regulations.
 
 ###### You must not
 
@@ -38,4 +45,4 @@ If you enter into this agreement on behalf of a company, you hereby agree that t
 
 ##### 5. Intellectual Property Rights
 
-Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the privacy laws may not be as protective as those in your jurisdiction. If you choose to provide information to us, Conclude transfers Personal Information to Google Cloud Platform and processes it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
+Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the privacy laws may not be as protective as those in your jurisdiction. If you choose to provide information to us, Neat Merchant transfers Personal Information to Google Cloud Platform and processes it there. Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
