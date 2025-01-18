@@ -16,6 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html suppressHydrationWarning={true} lang="en">
       <head>
+        {/* imapact.com verification code */}
+        <meta name='impact-site-verification' value='c0442be2-1e59-444f-b3dd-d8b60d6db1f1' />
+        
         {/* responsive meta */}
         <meta
           name="viewport"
