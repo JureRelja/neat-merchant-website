@@ -13,7 +13,7 @@ content:
       - name: description
         label: Description
         type: text
-        options: {maxlength: 160}
+        options: {maxlength: 200}
       - name: avatar
         label: Avatar
         type: image
