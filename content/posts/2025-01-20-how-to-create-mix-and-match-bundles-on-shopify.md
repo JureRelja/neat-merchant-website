@@ -13,3 +13,18 @@ Mix and match bundles are a great way to increase the AOV (average order value) 
 In this article, we will be going over how to create Mix and Match bundles on your Shopify store and start earning extra money from your customers for almost no additional cost.
 
 Without further ado, let's get started!
+
+# What are mix and match bundles?
+
+*   Volume bundles or multipacks
+    
+*   Frequently bought together bundles
+    
+*   Pre-built bundles
+    
+*   **Mix and match bundles**
+    
+
+## Mix and match bundles vs other bundles
+
+# How to create mix and match bundles for your Shopify store?
