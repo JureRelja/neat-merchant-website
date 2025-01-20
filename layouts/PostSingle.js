@@ -2,6 +2,7 @@ import config from "@config/config.json";
 import dateFormat from "@lib/utils/dateFormat";
 import readingTime from "@lib/utils/readingTime";
 import { markdownify } from "@lib/utils/textConverter";
+import {getAuthorPage} from "@lib/contentParser";
 import MDXContent from "app/helper/MDXContent";
 import Image from "next/image";
 import Cta from "./components/Cta";
@@ -10,16 +11,22 @@ import DisqussEmbed from "./partials/DisqussEmbed";
 import Post from "./partials/Post";
 import SeoMeta from "./partials/SeoMeta";
 
-const PostSingle = ({ frontmatter, content, recentPosts }) => {
+const PostSingle = async ({ frontmatter, content, recentPosts }) => {
   let { description, title, date, image, author } = frontmatter;
   description = description ? description : content.slice(0, 120);
   const { disqus } = config;
+
+  // Author data
+  const authorContent = await getAuthorPage(`${author}`);
+  const authorName = authorContent.frontmatter.name
+  const authorDescription = authorContent.frontmatter.description
+  const avatar = authorContent.frontmatter.avatar
 
   return (
     <>
       <SeoMeta title={title} description={description} image={image} />
       <section className="section pt-0">
-        <div className="container">
+        <div className="container flex flex-col">
           <article>
             <div className="row justify-center">
               <div className="lg:col-10">
@@ -34,37 +41,50 @@ const PostSingle = ({ frontmatter, content, recentPosts }) => {
                   />
                 )}
               </div>
-              <div className="lg:col-8">
-                {markdownify(title, "h1", "h2 mt-6")}
-                <div className="mt-6 flex items-center">
-                  <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
-                    <ImageFallback
-                      src={author.avatar}
-                      width={50}
-                      height={50}
-                      alt="author"
-                    />
+                <div className="lg:col-10">
+                  {markdownify(title, "h1", "h2 mt-6")}
+                  <div className="mt-6 flex items-center">
+                    <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
+                      <ImageFallback
+                        src={avatar}
+                        width={50}
+                        height={50}
+                        alt="author"
+                      />
+                    </div>
+                    <div className="pl-5">
+                      <p className="font-medium text-dark">{authorName}</p>
+                      <p>
+                        {dateFormat(date)} - {readingTime(content)}
+                      </p>
+                    </div>
                   </div>
-                  <div className="pl-5">
-                    <p className="font-medium text-dark">{author.name}</p>
-                    <p>
-                      {dateFormat(date)} - {readingTime(content)}
-                    </p>
-                  </div>
-                </div>
-                <div className="content mb-16 mt-16 text-left">
-                  <MDXContent content={content} />
-                </div>
-              </div>
-              {/* {disqus.enable && (
-                <div className="fade row justify-center ">
-                  <div className="lg:col-8">
-                    <DisqussEmbed />
+                  <div className="content mb-16 mt-16 text-left">
+                    <MDXContent content={content} />
                   </div>
                 </div>
-              )} */}
             </div>
           </article>
+         
+        <div className="row justify-center mt-12">
+          <div className="lg:col-10 flex flex-col">
+            <p className="font-medium text-lg text-dark">About the author:</p>
+            <div className="flex items-center mt-4">
+              <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
+                <ImageFallback
+                  src={avatar}
+                  width={100}
+                  height={100}
+                  alt="author"
+                />
+              </div>
+              <div className="flex flex-col mt-2 pl-6 gap-2">
+                <p className="font-medium text-dark">{authorName}</p>
+                <p className="font-light text-dark">{authorDescription}</p>
+              </div>
+              </div>
+            </div>
+          </div>
 
           <div className="section mt-16">
             <h2 className="section-title text-center">Recent Articles</h2>

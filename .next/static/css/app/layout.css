@@ -2282,6 +2282,9 @@ select {
 .mt-9 {
   margin-top: 2.25rem;
 }
+.mt-12 {
+  margin-top: 3rem;
+}
 .block {
   display: block;
 }
@@ -2377,6 +2380,9 @@ select {
 }
 .flex-col {
   flex-direction: column;
+}
+.items-start {
+  align-items: flex-start;
 }
 .items-center {
   align-items: center;
@@ -2602,6 +2608,9 @@ select {
 .pt-\[40px\] {
   padding-top: 40px;
 }
+.pl-6 {
+  padding-left: 1.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -2629,6 +2638,10 @@ select {
 .text-base {
   font-size: 16px;
 }
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
 .font-medium {
   font-weight: 500;
 }
@@ -2637,6 +2650,9 @@ select {
 }
 .font-semibold {
   font-weight: 600;
+}
+.font-light {
+  font-weight: 300;
 }
 .uppercase {
   text-transform: uppercase;
@@ -3135,6 +3151,11 @@ code::after {
     width: 66.66666666666667%;
   }
 
+  .lg\:col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+
   .lg\:col-10 {
     flex: 0 0 auto;
     width: 83.33333333333334%;
@@ -3279,6 +3300,10 @@ code::after {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
