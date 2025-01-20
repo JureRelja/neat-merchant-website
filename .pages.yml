@@ -2,7 +2,21 @@ media:
   input: public/images/blog
   output: /images/blog
 content:
-  
+  - name: authors
+    label: Authors
+    type: collection
+    path: 'content/authors'
+    fields:
+      - name: name
+        label: Full name
+        type: string
+      - name: description
+        label: Description
+        type: text
+        options: {maxlength: 160}
+      - name: avatar
+        label: Avatar
+        type: image
   - name: posts
     label: Posts
     type: collection
@@ -23,15 +37,8 @@ content:
         label: Date
         type: date
       - name: author
-        label: Author
-        type: object
-        fields:
-          - name: name
-            label: Full name
-            type: string
-          - name: avatar
-            label: Avatar
-            type: image
+        label: Author ID
+        type: string
       - name: image
         label: Featured image
         type: image
