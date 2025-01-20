@@ -66,15 +66,15 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
             </div>
           </article>
          
-        <div className="row justify-center mt-12">
-          <div className="lg:col-10 flex flex-col">
-            <p className="font-medium text-lg text-dark">About the author:</p>
-            <div className="flex items-center mt-4">
-              <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
+        <div className="section lg:row justify-center  ">
+          <div className="lg:col-10 flex flex-col border-2  shadow-[0_0_0_2px] shadow-[#FFF7F2] rounded-lg p-4">
+            <p className="font-medium text-lg text-dark">About the author</p>
+            <div className="flex flex-col md:flex-row items-center mt-4">
+              <div className="overflow-hidden rounded-full border-2 border-white ">
                 <ImageFallback
                   src={avatar}
-                  width={100}
-                  height={100}
+                  width={150}
+                  height={150}
                   alt="author"
                 />
               </div>
@@ -86,7 +86,7 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
             </div>
           </div>
 
-          <div className="section mt-16">
+          <div className="section">
             <h2 className="section-title text-center">Recent Articles</h2>
             <div className="row justify-center">
               {recentPosts.slice(0, 2).map((post, index) => (
