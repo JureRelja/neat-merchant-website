@@ -8,4 +8,6 @@ date: 2025-01-13
 author: jure
 image: /images/blog/01.jpg
 ---
-This is text body
+Mix and match bundles are a great way to increase the AOV (average order value) of your Shopify store. They will help you sell more products, clear inventory faster, and also improve your conversion rate, but only if done right.
+
+In this article, we will be going over how to start using Mix and Match bundles on your Shopify store and start earning extra money from your customers for almost no additional cost. We will explore all the possibilities
