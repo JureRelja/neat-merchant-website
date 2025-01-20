@@ -32,18 +32,18 @@ const Post = ({ post, i }) => {
           {post.content.slice(0, Number(summary_length))}...
         </p>
         <div className="mt-6 flex items-center">
-          <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
+          {/* <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
             <ImageFallback
               src={post.frontmatter.author.avatar}
               width={50}
               height={50}
               alt="author"
             />
-          </div>
-          <div className="pl-5">
-            <p className="font-medium text-dark">
+          </div> */}
+          <div className="">
+            {/* <p className="font-medium text-dark">
               {post.frontmatter.author.name}
-            </p>
+            </p> */}
             <p>
               {dateFormat(post.frontmatter.date)} - {readingTime(post.content)}
             </p>
