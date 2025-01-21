@@ -85,7 +85,7 @@ Hiring a developer may make sense if your Shopify store is very specific and you
 
 ## Step 1 - Install the mix and match bundles app from Shopify App Store
 
-We will start by installing the [NeatBundles Shopify app](https://apps.shopify.com/neat-bundles). This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc.
+We will start by installing the [NeatBundles Shopify app](https://apps.shopify.com/neat-bundles). This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc. It also comes with a 30-day free trial which should be enough for you to start getting some bundle sales.
 
 > _If by any chance you realize that you just need multipack bundles or pre-built bundles, you can install the_ [_Shopify bundles app_](https://apps.shopify.com/shopify-bundles) _for free and continue with that._
 
@@ -125,7 +125,7 @@ You don't need to know all the answers to these questions immediately since you 
 
 **The mix and match bundle I will be adding to my store**
 
-On my store, I will create a bundle called "Snowboard for Him and Her". My idea is that if someone is thinking about buying a snowboard for himself and for their significant other, they can freely choose which two snowboards they want and get a discount for that order.
+On my store, I will create a bundle called "Snowboard for Him and Her". My idea is that if someone is thinking about buying a snowboard for himself and their significant other, they can freely choose which two snowboards they want and get a discount for that order.
 
 The bundle will have two steps. On the first one, the customer will need to select the first snowboard (one for him), and on the second step, the customer will need to select the second snowboard (one for her).
 
@@ -241,6 +241,8 @@ For each new bundle that you create, NeatBundles app will maintain a special bun
 
 _You can find the page link of the individual bundle by clicking the edit button. You will be redirected to a new page where you will be able to find or edit all the information regarding that bundle._
 
-# Overview
+# Wrapping up
 
-As you can see, the whole process of installing the app and configuring your first mix and match bundle was very easy.
+As you can see, the whole process of installing the app and configuring your first mix and match bundle was very easy. So, don't keep waiting anymore and start using mix and match bundles on your store.
+
+In this tutorial, I've shown you how to create mix and match bundles using [**NeatBundles Shopify app**](https://apps.shopify.com/neat-bundles). I need to mention that there are other Shopify apps that have similar features such as Easy Bundles or ZenBox: Bundle Builder, but as far as I know, NeatBundles is the cheapest of them all while still containing most of the essential features that everyone will need. On top of being the most affordable app, NeatBundles also offers a 30-day free trial. There is also a support team that you can reach out to.
