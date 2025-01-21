@@ -27,7 +27,7 @@ There are different types of bundles that you can utilize on your Shopify store.
 *   Pre-built bundles (boxes) - these bundles are pre-configured and packaged as a single product for you to buy with a discount already applied.  
     _Example:_ shampoo, lotion, and a deodorant packaged together as a Christmas gift.
     
-*   **Mix and match bundles** \- mix and match bundles are very similar to pre-built bundles, but the key difference is that the products inside the bundle are not pre-selected by the merchant.  
+*   **Mix and match bundles** - mix and match bundles are very similar to pre-built bundles, but the key difference is that the products inside the bundle are not pre-selected by the merchant.  
     _Example:_ pick any lotion, deodorant, and shampoo and get 15% off on your custom bundle.
     
 
@@ -93,7 +93,7 @@ Just like with every other Shopify app, you need to click "Install", then click 
 
 ### Select billing plan
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20select%20billing%20plan.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20select%20billing%20plan.png)
 
 After you've installed the app, you will be prompted to select a billing plan. All the plans are affordable, especially in this category and even the Basic plan, should be enough to get you started. If you are running a development store, like I am in this tutorial, you will be automatically assigned a free development plan.
 
@@ -101,13 +101,13 @@ After you've installed the app, you will be prompted to select a billing plan. A
 
 After selecting the billing plan, you will be redirected to an installation page, where you'll need to enable the app on your active theme. NeatBundles app requires this to be able to show a mix and match bundles builder on your store.
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20connecting%20app%20to%20theme.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20connecting%20app%20to%20theme.png)
 
-On this page, you can just follow the 3 simple instructions on the right of "App activation" to activate the app.
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20connecting%20app%20to%20theme.png)On this page, you can just follow the 3 simple instructions on the right of "App activation" to activate the app.
 
-First, you need to press "Activate app".
+First, you need to press "Activate app".![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20activating%20app%20on%20active-theme.png)
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20activating%20app%20on%20active-theme.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20activating%20app%20on%20active-theme.png)
 
 A window like this will then open up, where you will need to click the black toggle button to enable the app. After that, you need to just click "Save" on the right side, and you can close this window.
 
@@ -129,15 +129,15 @@ On my store, I will create a bundle called "Snowboard for Him and Her". My idea 
 
 The bundle will have two steps. On the first one, the customer will need to select the first snowboard (one for him), and on the second step, the customer will need to select the second snowboard (one for her).
 
-### Building mix and match bundle
+### Building mix and match bundle![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20installation%20successful)
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20installation%20successful)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20installation%20successful.png)
 
 Let's start creating! This is the page you should have been redirected to after completing the installation. To create your first bundle click _Create bundle_.
 
 **Entering a title**
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20title.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20title.png)
 
 The next step is to enter a title for your bundle. As you can see, mine is _Snowboard for Him & Her_.
 
@@ -145,19 +145,19 @@ Feel free to be creative with your title, but don't make it too long since it wi
 
 **Choosing the number of steps**
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20number%20of%20steps.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20number%20of%20steps.png)
 
 Now you need to choose if your bundle is gonna either have one or multiple steps. I am gonna be choosing multiple. After you select what's appropriate for you, click next.
 
 **Configuring the first step**
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20first%20bundle-step.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20first%20bundle-step.png)
 
 Now, we need to configure the first step. The title for my first step will be _Snowboard for Him_. I will allow customers to only choose 1 product on this step, by setting both minimum and maximum products to 1. In terms of the products that the customer can select, I chose 6 different snowboards that I think could appeal to men. After you configure all that for yourself, click next.
 
-**Configuring the second step**
+**Configuring the second step**![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20step%20type.png)
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20step%20type.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20step%20type.png)
 
 After you have clicked next on the first step, you will be prompted to choose the type of the second step. NeatBundles app allows for two types of steps: product step and content step.
 
@@ -165,15 +165,15 @@ The first step we've just configured a second ago was a **_product step_**. The 
 
 The **_content step_** allows you to let your customers enter their content usually used for personalization. For example, I could have an additional step where I would ask a customer to enter the names of the two people these two snowboards are for and then send them a thank you letter with their order mentioning both of their names. Adding that type of personalization can be a great way to form a stronger connection with your customers because they will see that there is a person on the other end caring for them.
 
-Just for the sake of simplicity, I will choose the second step to also be the product step and click next.
+Just for the sake of simplicity, I will choose the second step to also be the product step and click next.![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20bundle%20step.png)
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20bundle%20step.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20bundle%20step.png)
 
 Now, I will enter pretty much the same configuration for the second step. The only difference is that I selected different snowboards that I want to offer in this step (more appealing to women), and I also changed the title to _Snowboard for Her_.
 
 ### Bundle discount
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20discount.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20discount.png)
 
 The next step is configuring the discount. You can make the discount either be fixed (e.g. 100$ no matter the total cost) or a percentage (e.g. 30% on the total price of all products that are in the bundle).
 
@@ -183,10 +183,30 @@ I will choose a percentage discount and make it a generous 20% since snowboards 
 
 That was actually the last step we needed to go through. After that, this screen should appear notifying you that your bundle is done.
 
-![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20created.png)
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20created.png)![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20created.png)
 
 You can click the black button to see your bundle live on your store.
 
 ## Testing mix and match bundle
 
-You can now go through and make sure that your mix and match bundle in working properly.
+You can now go through and make sure that your mix and match bundle is working properly.
+
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20testing%20bundle%20step%201.png)
+
+This is the page that I see when I go to check out my bundle. I can select which snowboard I want on the first and second steps. There is also a limit not allowing me to select more than 1 snowboard on each step.
+
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20testing%20bundle%20step%201%20product%20overlay.png)
+
+Since some products have multiple variants, a modal overlay is shown which allows me to exactly select which variant I want to add to my bundle. The total price before and after the discount is also shown in the bottom right part of the page.
+
+### Adding bundle to cart and checking out
+
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20in%20cart.png)
+
+If I go all the way through the bundle and click _Finish_ on the last step, the bundle is added to the cart.
+
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20in%20checkout.png)
+
+When I go to checkout, I can see the bundle together with all the individual items that are a part of it.
+
+# Changing the colors of your mix and match bundle
