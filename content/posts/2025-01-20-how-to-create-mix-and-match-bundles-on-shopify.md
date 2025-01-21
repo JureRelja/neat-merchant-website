@@ -87,4 +87,16 @@ Hiring a developer may make sense if your Shopify store is very specific and you
 
 We will start by installing the [NeatBundles Shopify app](https://apps.shopify.com/neat-bundles). This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc.
 
-If by any chance you realize that you just need multipack bundles or pre-built bundles, you can install the [Shopify bundles app](https://apps.shopify.com/shopify-bundles) for free and continue with that.
+> _If by any chance you realize that you just need multipack bundles or pre-built bundles, you can install the_ [_Shopify bundles app_](https://apps.shopify.com/shopify-bundles) _for free and continue with that._
+
+Just like with every other Shopify app, you need to click "Install", then click "Authorize".
+
+## Select billing plan
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20select%20billing%20plan.png)
+
+After you've installed the app, you will be prompted to select a billing plan. All the plans are affordable, especially in this category and even the Basic plan, should be enough to get you started. If you are running a development store, like I am in this tutorial, you will be automatically assigned a free development plan.
+
+## Connecting the app to your active theme
+
+After selecting the billing plan, you will be redirected to an installation page, where you'll need to enable the app on your active theme. NeatBundles app requires this to be able to show a mix and match bundles builder on your store.
