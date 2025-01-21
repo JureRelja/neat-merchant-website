@@ -210,3 +210,37 @@ If I go all the way through the bundle and click _Finish_ on the last step, the 
 When I go to checkout, I can see the bundle together with all the individual items that are a part of it.
 
 # Changing the colors of your mix and match bundle
+
+As you saw before, we have added mix and match bundles to our store. The next you will probably want to do is customize the colors for the bundle page to match your brand.
+
+First, navigate to Global settings while in the NeatBundles app.
+
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20global%20settings.png)
+
+That will get you to here:
+
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20edit-colors.png)
+
+These are the global settings that apply to all the bundles you create using NeatBundles app. Down below are some of the settings regarding navigation, but I let you play with them on your own.
+
+We need to click on _Edit colors_ to get started editing the colors of our bundle pages.
+
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20editing%20colors.png)
+
+After you've clicked on the previous button, a page like this will open up allowing you to edit most of the colors on your bundle pages. The bundle that was being displayed is an example bundle which is there to give you a real-time preview of how your pages will look.
+
+After you are happy with all the colors, you can just click _Save_.
+
+<h1 style="text-align: justify">Creating multiple mix and match bundles</h1>
+
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20all%20bundles%20page%20.png)
+
+When you navigate back to the first page in NeatBundles app, you will see your bundle along with some additional information. You can edit your current bundle or create more of them, it's your choice.
+
+For each new bundle that you create, NeatBundles app will maintain a special bundle page that you will need to send your customers if they want to create their bundles.
+
+_You can find the page link of the individual bundle by clicking the edit button. You will be redirected to a new page where you will be able to find or edit all the information regarding that bundle._
+
+# Overview
+
+As you can see, the whole process of installing the app and configuring your first mix and match bundle was very easy.
