@@ -91,12 +91,102 @@ We will start by installing the [NeatBundles Shopify app](https://apps.shopify.c
 
 Just like with every other Shopify app, you need to click "Install", then click "Authorize".
 
-## Select billing plan
+### Select billing plan
 
 ![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20select%20billing%20plan.png)
 
 After you've installed the app, you will be prompted to select a billing plan. All the plans are affordable, especially in this category and even the Basic plan, should be enough to get you started. If you are running a development store, like I am in this tutorial, you will be automatically assigned a free development plan.
 
-## Connecting the app to your active theme
+### Connecting the app to your active theme
 
 After selecting the billing plan, you will be redirected to an installation page, where you'll need to enable the app on your active theme. NeatBundles app requires this to be able to show a mix and match bundles builder on your store.
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20connecting%20app%20to%20theme.png)
+
+On this page, you can just follow the 3 simple instructions on the right of "App activation" to activate the app.
+
+First, you need to press "Activate app".
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20activating%20app%20on%20active-theme.png)
+
+A window like this will then open up, where you will need to click the black toggle button to enable the app. After that, you need to just click "Save" on the right side, and you can close this window.
+
+## Step 2 - Creating the first mix and match bundle
+
+After completing the installation we will start by creating our first mix and match bundles.
+
+### How will your mix and match bundle look?
+
+Now, before we start, you need to have a general idea of how you want your final bundle page to behave. A couple of questions you need to know to get started are:
+
+_How many steps will you have in my bundle?_ _How many products will customers be able to select on certain steps?_ _How big of a discount do you want to offer?_ _Do you want to provide some additional benefits for customers who purchase a bundle, like gift cards?_
+
+You don't need to know all the answers to these questions immediately since you can always change how your bundle works, but it's good to have an idea before you start.
+
+**The mix and match bundle I will be adding to my store**
+
+On my store, I will create a bundle called "Snowboard for Him and Her". My idea is that if someone is thinking about buying a snowboard for himself and for their significant other, they can freely choose which two snowboards they want and get a discount for that order.
+
+The bundle will have two steps. On the first one, the customer will need to select the first snowboard (one for him), and on the second step, the customer will need to select the second snowboard (one for her).
+
+### Building mix and match bundle
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20installation%20successful)
+
+Let's start creating! This is the page you should have been redirected to after completing the installation. To create your first bundle click _Create bundle_.
+
+**Entering a title**
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20title.png)
+
+The next step is to enter a title for your bundle. As you can see, mine is _Snowboard for Him & Her_.
+
+Feel free to be creative with your title, but don't make it too long since it will show in the cart, checkout, and order details page.
+
+**Choosing the number of steps**
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20number%20of%20steps.png)
+
+Now you need to choose if your bundle is gonna either have one or multiple steps. I am gonna be choosing multiple. After you select what's appropriate for you, click next.
+
+**Configuring the first step**
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20first%20bundle-step.png)
+
+Now, we need to configure the first step. The title for my first step will be _Snowboard for Him_. I will allow customers to only choose 1 product on this step, by setting both minimum and maximum products to 1. In terms of the products that the customer can select, I chose 6 different snowboards that I think could appeal to men. After you configure all that for yourself, click next.
+
+**Configuring the second step**
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20step%20type.png)
+
+After you have clicked next on the first step, you will be prompted to choose the type of the second step. NeatBundles app allows for two types of steps: product step and content step.
+
+The first step we've just configured a second ago was a **_product step_**. The final customer browsing your store will be able to select products on those steps.
+
+The **_content step_** allows you to let your customers enter their content usually used for personalization. For example, I could have an additional step where I would ask a customer to enter the names of the two people these two snowboards are for and then send them a thank you letter with their order mentioning both of their names. Adding that type of personalization can be a great way to form a stronger connection with your customers because they will see that there is a person on the other end caring for them.
+
+Just for the sake of simplicity, I will choose the second step to also be the product step and click next.
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20bundle%20step.png)
+
+Now, I will enter pretty much the same configuration for the second step. The only difference is that I selected different snowboards that I want to offer in this step (more appealing to women), and I also changed the title to _Snowboard for Her_.
+
+### Bundle discount
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20discount.png)
+
+The next step is configuring the discount. You can make the discount either be fixed (e.g. 100$ no matter the total cost) or a percentage (e.g. 30% on the total price of all products that are in the bundle).
+
+I will choose a percentage discount and make it a generous 20% since snowboards are a little more expensive and people will probably need a higher incentive to buy two of them.
+
+### Checking out our bundle
+
+That was actually the last step we needed to go through. After that, this screen should appear notifying you that your bundle is done.
+
+![](/images/blog/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20created.png)
+
+You can click the black button to see your bundle live on your store.
+
+## Testing mix and match bundle
+
+You can now go through and make sure that your mix and match bundle in working properly.
