@@ -42,6 +42,9 @@ content:
       - name: image
         label: Featured image
         type: image
+      - name: youtubeLink
+        label: Youtube Video Link
+        type: string
       - name: body
         label: Body
         type: rich-text
