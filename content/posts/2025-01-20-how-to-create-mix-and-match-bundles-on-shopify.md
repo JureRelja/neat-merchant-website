@@ -6,7 +6,8 @@ description: Want to increase AOV of your Shopify store? Using Mix and Match
   conversion rate.
 date: 2025-01-13
 author: jure
-image: /images/blog/01.jpg
+image: /images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how to create
+  mix and match bundles.png
 ---
 Mix and match bundles are a great way to increase the AOV (average order value) of your Shopify store. They will help you sell more products, clear inventory faster, and also improve your conversion rate, but only if done right.
 
@@ -19,16 +20,20 @@ Without further ado, let's get started!
 There are different types of bundles that you can utilize on your Shopify store.
 
 *   Volume bundles or multipacks - these are bundles where you give discounts if customers buy two or more of the same product  
-    _Example:_ Buy two shirts, get 10% off, buy 3 get 20% off.
+    **_Example_**_:_ _Buy two shirts, get 10% off, buy 3 get 20% off._  
+    Recommended _Shopify App:_ [_Kaching Bundle Quantity Breaks_](https://apps.shopify.com/bundle-deals?surface_intra_position=1&surface_type=partners&surface_version=redesign)
     
 *   Frequently bought together bundles (FBT bundles)- with FBT bundles, you usually show certain products under the main product that the customer is looking at and offer a discount if they purchase these additional products along with the main product.  
-    Example: laptop with bag and mouse offered as frequently bought together items
+    **_Example_**_: laptop with bag and mouse offered as frequently bought together items_  
+    Recommended _Shopify App:_ [_Frequently Bought Together CBB_](https://apps.shopify.com/frequently-bought-together?search_id=33ba5a87-66db-4677-a742-9f8b5bc4fdb3&surface_detail=Frequently+Bought+Together+&surface_inter_position=1&surface_intra_position=6&surface_type=search)
     
 *   Pre-built bundles (boxes) - these bundles are pre-configured and packaged as a single product for you to buy with a discount already applied.  
-    _Example:_ shampoo, lotion, and a deodorant packaged together as a Christmas gift.
+    **_Example_**_: shampoo, lotion, and a deodorant packaged together as a Christmas gift._  
+    Recommended _Shopify App: no app required. You can just add a new product containing a description of which products come when someone buys it_
     
 *   **Mix and match bundles** - mix and match bundles are very similar to pre-built bundles, but the key difference is that the products inside the bundle are not pre-selected by the merchant.  
-    _Example:_ pick any lotion, deodorant, and shampoo and get 15% off on your custom bundle.
+    **_Example_**_:_ _pick any lotion, deodorant, and shampoo and get 15% off on your custom bundle._  
+    Recommended _Shopify App:_ [_NeatBundles: Easy mix & match_](https://apps.shopify.com/neat-bundles)
     
 
 As you can see, all of these bundle types are different, and all of them have their purpose. In this tutorial, we will be strictly focusing on mix and match bundles and how to add them to your store.
