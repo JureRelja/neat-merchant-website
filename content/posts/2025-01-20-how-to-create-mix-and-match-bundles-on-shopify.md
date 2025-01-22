@@ -92,7 +92,7 @@ Hiring a developer may make sense if your Shopify store is very specific and you
 
 We will start by installing the [NeatBundles Shopify app](https://apps.shopify.com/neat-bundles). This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc. It also comes with a 30-day free trial which should be enough for you to start getting some bundle sales.
 
-> _If by any chance you realize that you just need multipack bundles or pre-built bundles, you can install the_ [_Shopify bundles app_](https://apps.shopify.com/shopify-bundles){:target="_blank"} _for free and continue with that._
+> _If by any chance you realize that you just need multipack bundles or pre-built bundles, you can install the_ [_Shopify bundles app_](https://apps.shopify.com/shopify-bundles) _for free and continue with that._
 
 Just like with every other Shopify app, you need to click "Install", then click "Authorize".
 
