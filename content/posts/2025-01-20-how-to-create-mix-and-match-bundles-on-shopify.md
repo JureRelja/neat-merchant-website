@@ -4,7 +4,7 @@ published: true
 description: Want to increase AOV of your Shopify store? Using Mix and Match
   bundles is a perfect way to do so. It will help with both AOV and you
   conversion rate.
-date: 2025-01-13
+date: 2025-01-22
 author: jure
 image: /images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how to create
   mix and match bundles.png
