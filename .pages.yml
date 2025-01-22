@@ -42,8 +42,8 @@ content:
       - name: image
         label: Featured image
         type: image
-      - name: youtubeLink
-        label: Youtube Video Link
+      - name: youtubeVideoID
+        label: Youtube Video ID
         type: string
       - name: body
         label: Body
