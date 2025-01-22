@@ -37,7 +37,7 @@ There are different types of bundles that you can utilize on your Shopify store.
     **_Recommended Shopify App:_** [_NeatBundles: Easy mix & match_](https://apps.shopify.com/neat-bundles)
     
 
-_There is also a free bundles app built by Shopify called [Shopify bundles app](https://apps.shopify.com/shopify-bundles) which you can install the for free. It's missing some features that paid apps have, but it can be a good start._
+_There is also a free bundles app built by Shopify called_ [_Shopify bundles app_](https://apps.shopify.com/shopify-bundles) _which you can install for free. It's missing some features that paid apps have, but it can be a good start._
 
 As you can see, all of these bundle types are different, and all of them have their purpose. In this tutorial, we will be strictly focusing on mix and match bundles and how to add them to your store.
 
@@ -95,7 +95,9 @@ Hiring a developer may make sense if your Shopify store is very specific and you
 
 We will start by installing the [NeatBundles Shopify app](https://apps.shopify.com/neat-bundles). This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc. It also comes with a 30-day free trial which should be enough for you to start getting some bundle sales.
 
-Just like with every other Shopify app, you need to click "Install", then click "Authorize".
+![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/neat-bundles-easy-mix-and-match-shopify-app.png)
+
+Just like with every other Shopify app, you need to click "Install", and then click "Authorize".
 
 ### Select billing plan
 
@@ -237,7 +239,7 @@ After you've clicked on the previous button, a page like this will open up allow
 
 After you are happy with all the colors, you can just click _Save_.
 
-<h1 style={{textAlign: "justify"}}>Creating multiple mix and match bundles</h1>
+# Creating multiple mix and match bundles
 
 ![NeatBundles Shopify app - My Bundles page](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20all%20bundles%20page%20.png "NeatBundles Shopify app - My Bundles page")
 
