@@ -1,5 +1,5 @@
 ---
-title: How To Create Mix and Match Bundles on Shopify
+title: How To Create Mix and Match Bundles on Shopify Store
 published: true
 description: Want to increase AOV of your Shopify store? Using Mix and Match
   bundles is a perfect way to do so. It will help with both AOV and you
@@ -21,11 +21,11 @@ There are different types of bundles that you can utilize on your Shopify store.
 
 *   **Volume bundles or multipacks** - these are bundles where you give discounts if customers buy two or more of the same product  
     **_Example_**_:_ _Buy two shirts, get 10% off, buy 3 get 20% off._  
-    **_Recommended Shopify App:_** <a href="https://apps.shopify.com/bundle-deals?surface_intra_position=1&surface_type=partners&surface_version=redesign" target="blank">_Kaching Bundle Quantity Breaks_</a>
+    **_Recommended Shopify App:_** [_Kaching Bundle Quantity Breaks_](https://apps.shopify.com/bundle-deals?surface_intra_position=1&surface_type=partners&surface_version=redesign)
     
 *   **Frequently bought together bundles** (FBT bundles) - with FBT bundles, you usually show certain products under the main product that the customer is looking at and offer a discount if they purchase these additional products along with the main product.  
     **_Example_**_: laptop with bag and mouse offered as frequently bought together items_  
-    **_Recommended Shopify App:_** <a href="https://apps.shopify.com/frequently-bought-together?search_id=33ba5a87-66db-4677-a742-9f8b5bc4fdb3&surface_detail=Frequently+Bought+Together+&surface_inter_position=1&surface_intra_position=6&surface_type=search" target="_blank">_Frequently Bought Together CBB_</a>
+    **_Recommended Shopify App:_** [_Frequently Bought Together CBB_](https://apps.shopify.com/frequently-bought-together?search_id=33ba5a87-66db-4677-a742-9f8b5bc4fdb3&surface_detail=Frequently+Bought+Together+&surface_inter_position=1&surface_intra_position=6&surface_type=search)
     
 *   **Pre-built bundles (boxes)** - these bundles are pre-configured and packaged as a single product for you to buy with a discount already applied.  
     **_Example_**_: shampoo, lotion, and a deodorant packaged together as a Christmas gift._  
@@ -33,9 +33,10 @@ There are different types of bundles that you can utilize on your Shopify store.
     
 *   **Mix and match bundles** - mix and match bundles are very similar to pre-built bundles, but the key difference is that the products inside the bundle are not pre-selected by the merchant.  
     **_Example_**_:_ _pick any lotion, deodorant, and shampoo and get 15% off on your custom bundle._  
-    **_Recommended Shopify App:_** <a href="https://apps.shopify.com/neat-bundles" target="_blank">_NeatBundles: Easy mix & match_</a>
+    **_Recommended Shopify App:_** [_NeatBundles: Easy mix & match_](https://apps.shopify.com/neat-bundles)
     
-_There is also a free bundles app built by Shopify called <a href="https://apps.shopify.com/shopify-bundles" target="_blank">Shopify bundles app</a> which you can install the for free. It's missing some features that paid apps have, but it can be a good start._
+
+_There is also a free bundles app built by Shopify called [Shopify bundles app](https://apps.shopify.com/shopify-bundles) which you can install the for free. It's missing some features that paid apps have, but it can be a good start._
 
 As you can see, all of these bundle types are different, and all of them have their purpose. In this tutorial, we will be strictly focusing on mix and match bundles and how to add them to your store.
 
@@ -91,7 +92,7 @@ Hiring a developer may make sense if your Shopify store is very specific and you
 
 ## Step 1 - Install the mix and match bundles app from Shopify App Store
 
-We will start by installing the <a href="https://apps.shopify.com/neat-bundles" target="_blank">NeatBundles Shopify app</a>. This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc. It also comes with a 30-day free trial which should be enough for you to start getting some bundle sales.
+We will start by installing the [NeatBundles Shopify app](https://apps.shopify.com/neat-bundles). This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc. It also comes with a 30-day free trial which should be enough for you to start getting some bundle sales.
 
 Just like with every other Shopify app, you need to click "Install", then click "Authorize".
 
@@ -235,7 +236,7 @@ After you've clicked on the previous button, a page like this will open up allow
 
 After you are happy with all the colors, you can just click _Save_.
 
-<h1 style={{textAlign: "justify"}}>Creating multiple mix and match bundles</h1>
+<h1 style="{{textAlign:" "justify"}}="">Creating multiple mix and match bundles</h1>
 
 ![NeatBundles Shopify app - My Bundles page](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20all%20bundles%20page%20.png "NeatBundles Shopify app - My Bundles page")
 
@@ -249,4 +250,4 @@ _You can find the page link of the individual bundle by clicking the edit button
 
 As you can see, the whole process of installing the app and configuring your first mix and match bundle was very easy. So, don't keep waiting anymore and start using mix and match bundles on your store.
 
-In this tutorial, I've shown you how to create mix and match bundles using <a href="https://apps.shopify.com/neat-bundles" target="_blank">NeatBundles Shopify app</a>. I need to mention that there are other Shopify apps that have similar features such as Easy Bundles or ZenBox: Bundle Builder, but as far as I know, NeatBundles is the cheapest of them all while still containing most of the essential features that everyone will need. On top of being the most affordable app, NeatBundles also offers a 30-day free trial. There is also a support team that you can reach out to.
+In this tutorial, I've shown you how to create mix and match bundles using [NeatBundles Shopify app](https://apps.shopify.com/neat-bundles). I need to mention that there are other Shopify apps that have similar features such as Easy Bundles or ZenBox: Bundle Builder, but as far as I know, NeatBundles is the cheapest of them all while still containing most of the essential features that everyone will need. On top of being the most affordable app, NeatBundles also offers a 30-day free trial. There is also a support team that you can reach out to.
