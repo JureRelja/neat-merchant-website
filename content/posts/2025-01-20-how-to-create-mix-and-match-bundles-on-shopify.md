@@ -19,22 +19,23 @@ Without further ado, let's get started!
 
 There are different types of bundles that you can utilize on your Shopify store.
 
-*   Volume bundles or multipacks - these are bundles where you give discounts if customers buy two or more of the same product  
+*   **Volume bundles or multipacks** - these are bundles where you give discounts if customers buy two or more of the same product  
     **_Example_**_:_ _Buy two shirts, get 10% off, buy 3 get 20% off._  
-    Recommended _Shopify App:_ [_Kaching Bundle Quantity Breaks_](https://apps.shopify.com/bundle-deals?surface_intra_position=1&surface_type=partners&surface_version=redesign)
+    **_Recommended Shopify App:_** <a href="https://apps.shopify.com/bundle-deals?surface_intra_position=1&surface_type=partners&surface_version=redesign" target="blank">_Kaching Bundle Quantity Breaks_</a>
     
-*   Frequently bought together bundles (FBT bundles)- with FBT bundles, you usually show certain products under the main product that the customer is looking at and offer a discount if they purchase these additional products along with the main product.  
+*   **Frequently bought together bundles** (FBT bundles) - with FBT bundles, you usually show certain products under the main product that the customer is looking at and offer a discount if they purchase these additional products along with the main product.  
     **_Example_**_: laptop with bag and mouse offered as frequently bought together items_  
-    Recommended _Shopify App:_ [_Frequently Bought Together CBB_](https://apps.shopify.com/frequently-bought-together?search_id=33ba5a87-66db-4677-a742-9f8b5bc4fdb3&surface_detail=Frequently+Bought+Together+&surface_inter_position=1&surface_intra_position=6&surface_type=search)
+    **_Recommended Shopify App:_** <a href="https://apps.shopify.com/frequently-bought-together?search_id=33ba5a87-66db-4677-a742-9f8b5bc4fdb3&surface_detail=Frequently+Bought+Together+&surface_inter_position=1&surface_intra_position=6&surface_type=search" target="_blank">_Frequently Bought Together CBB_</a>
     
-*   Pre-built bundles (boxes) - these bundles are pre-configured and packaged as a single product for you to buy with a discount already applied.  
+*   **Pre-built bundles (boxes)** - these bundles are pre-configured and packaged as a single product for you to buy with a discount already applied.  
     **_Example_**_: shampoo, lotion, and a deodorant packaged together as a Christmas gift._  
-    Recommended _Shopify App: no app required. You can just add a new product containing a description of which products come when someone buys it_
+    **_Recommended Shopify App_**: _no app required. You can just add a new product containing a description of which products come when someone buys it_
     
 *   **Mix and match bundles** - mix and match bundles are very similar to pre-built bundles, but the key difference is that the products inside the bundle are not pre-selected by the merchant.  
     **_Example_**_:_ _pick any lotion, deodorant, and shampoo and get 15% off on your custom bundle._  
-    Recommended _Shopify App:_ [_NeatBundles: Easy mix & match_](https://apps.shopify.com/neat-bundles)
+    **_Recommended Shopify App:_** <a href="https://apps.shopify.com/neat-bundles" target="_blank">_NeatBundles: Easy mix & match_</a>
     
+_There is also a free bundles app built by Shopify called <a href="https://apps.shopify.com/shopify-bundles" target="_blank">Shopify bundles app</a> which you can install the for free. It's missing some features that paid apps have, but it can be a good start._
 
 As you can see, all of these bundle types are different, and all of them have their purpose. In this tutorial, we will be strictly focusing on mix and match bundles and how to add them to your store.
 
@@ -90,15 +91,13 @@ Hiring a developer may make sense if your Shopify store is very specific and you
 
 ## Step 1 - Install the mix and match bundles app from Shopify App Store
 
-We will start by installing the [NeatBundles Shopify app](https://apps.shopify.com/neat-bundles). This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc. It also comes with a 30-day free trial which should be enough for you to start getting some bundle sales.
-
-> _If by any chance you realize that you just need multipack bundles or pre-built bundles, you can install the_ [_Shopify bundles app_](https://apps.shopify.com/shopify-bundles) _for free and continue with that._
+We will start by installing the <a href="https://apps.shopify.com/neat-bundles" target="_blank">NeatBundles Shopify app</a>. This app will allow us to create mix and match bundles on our Shopify store. It has all the basic settings that you will need like configuring the number of steps, configuring discounts, changing colors, etc. It also comes with a 30-day free trial which should be enough for you to start getting some bundle sales.
 
 Just like with every other Shopify app, you need to click "Install", then click "Authorize".
 
 ### Select billing plan
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20select%20billing%20plan.png)
+![NeatBundles - select your billing plan](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20select%20billing%20plan.png "NeatBundles - select your billing plan")
 
 After you've installed the app, you will be prompted to select a billing plan. All the plans are affordable, especially in this category and even the Basic plan, should be enough to get you started. If you are running a development store, like I am in this tutorial, you will be automatically assigned a free development plan.
 
@@ -106,13 +105,13 @@ After you've installed the app, you will be prompted to select a billing plan. A
 
 After selecting the billing plan, you will be redirected to an installation page, where you'll need to enable the app on your active theme. NeatBundles app requires this to be able to show a mix and match bundles builder on your store.
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20connecting%20app%20to%20theme.png)
+![Connect NeatBundles Shopify App to your theme](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20connecting%20app%20to%20theme.png "Connect NeatBundles Shopify App to your theme")
 
 On this page, you can just follow the 3 simple instructions on the right of "App activation" to activate the app.
 
 First, you need to press "Activate app".!
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20activating%20app%20on%20active-theme.png)
+![Activate NeatBundles Shopify App](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20activating%20app%20on%20active-theme.png "Activate NeatBundles Shopify App")
 
 A window like this will then open up, where you will need to click the black toggle button to enable the app. After that, you need to just click "Save" on the right side, and you can close this window.
 
@@ -136,13 +135,13 @@ The bundle will have two steps. On the first one, the customer will need to sele
 
 ### Building mix and match bundle!
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20installation%20successful.png)
+![Installed NeatBundles: Easy Mix & Match Shopify app](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20installation%20successful.png "Installed NeatBundles: Easy Mix & Match Shopify app")
 
 Let's start creating! This is the page you should have been redirected to after completing the installation. To create your first bundle click _Create bundle_.
 
 **Entering a title**
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20title.png)
+![Enter a title for mix and match bundle](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20title.png "Enter a title for mix and match bundle")
 
 The next step is to enter a title for your bundle. As you can see, mine is _Snowboard for Him & Her_.
 
@@ -150,19 +149,19 @@ Feel free to be creative with your title, but don't make it too long since it wi
 
 **Choosing the number of steps**
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20number%20of%20steps.png)
+![Choose number of steps in mix and match bundle](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20number%20of%20steps.png "Choose number of steps in mix and match bundle")
 
 Now you need to choose if your bundle is gonna either have one or multiple steps. I am gonna be choosing multiple. After you select what's appropriate for you, click next.
 
 **Configuring the first step**
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20first%20bundle-step.png)
+![Configuring the first step in mix and match bundle](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20first%20bundle-step.png "Configuring the first step in mix and match bundle")
 
 Now, we need to configure the first step. The title for my first step will be _Snowboard for Him_. I will allow customers to only choose 1 product on this step, by setting both minimum and maximum products to 1. In terms of the products that the customer can select, I chose 6 different snowboards that I think could appeal to men. After you configure all that for yourself, click next.
 
-**Configuring the second step**![]
+**Configuring the second step**
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20step%20type.png)
+![Configuring the second step in mix and match bundle](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20step%20type.png "Configuring the second step in mix and match bundle")
 
 After you have clicked next on the first step, you will be prompted to choose the type of the second step. NeatBundles app allows for two types of steps: product step and content step.
 
@@ -172,13 +171,13 @@ The **_content step_** allows you to let your customers enter their content usua
 
 Just for the sake of simplicity, I will choose the second step to also be the product step and click next.!
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20bundle%20step.png)
+!["Choosing the step type for second step](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20second%20bundle%20step.png "Choosing the step type for second step")
 
 Now, I will enter pretty much the same configuration for the second step. The only difference is that I selected different snowboards that I want to offer in this step (more appealing to women), and I also changed the title to _Snowboard for Her_.
 
 ### Bundle discount
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20discount.png)
+![Selecting a discount for mix and match bundle](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20discount.png "Selecting a discount for mix and match bundle")
 
 The next step is configuring the discount. You can make the discount either be fixed (e.g. 100$ no matter the total cost) or a percentage (e.g. 30% on the total price of all products that are in the bundle).
 
@@ -188,7 +187,7 @@ I will choose a percentage discount and make it a generous 20% since snowboards 
 
 That was actually the last step we needed to go through. After that, this screen should appear notifying you that your bundle is done.
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20created.png)
+![Checking out mix and match bundle](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20created.png "Checking out mix and match bundle")
 
 You can click the black button to see your bundle live on your store.
 
@@ -196,21 +195,21 @@ You can click the black button to see your bundle live on your store.
 
 You can now go through and make sure that your mix and match bundle is working properly.
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20testing%20bundle%20step%201.png)
+![Test your mix and match bundle - step 1](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20testing%20bundle%20step%201.png "Test your mix and match bundle - step 1")
 
 This is the page that I see when I go to check out my bundle. I can select which snowboard I want on the first and second steps. There is also a limit not allowing me to select more than 1 snowboard on each step.
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20testing%20bundle%20step%201%20product%20overlay.png)
+![Overlay when adding product that have multiple variants to your mix and match bundle](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20testing%20bundle%20step%201%20product%20overlay.png "Overlay when adding product that have multiple variants to your mix and match bundle")
 
 Since some products have multiple variants, a modal overlay is shown which allows me to exactly select which variant I want to add to my bundle. The total price before and after the discount is also shown in the bottom right part of the page.
 
 ### Adding bundle to cart and checking out
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20in%20cart.png)
+![Adding mix and match bundle to cart](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20in%20cart.png "Adding mix and match bundle to cart")
 
 If I go all the way through the bundle and click _Finish_ on the last step, the bundle is added to the cart.
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20in%20checkout.png)
+![Checkout out with mix and match bundle](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20bundle%20in%20checkout.png "Checkout out with mix and match bundle")
 
 When I go to checkout, I can see the bundle together with all the individual items that are a part of it.
 
@@ -220,17 +219,17 @@ As you saw before, we have added mix and match bundles to our store. The next yo
 
 First, navigate to Global settings while in the NeatBundles app.
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20global%20settings.png)
+![NeatBundles global settings](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20global%20settings.png "NeatBundles global settings")
 
 That will get you to here:
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20edit-colors.png)
+![Edit mix and match bundle colors](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20edit-colors.png "Edit mix and match bundle colors")
 
 These are the global settings that apply to all the bundles you create using NeatBundles app. Down below are some of the settings regarding navigation, but I let you play with them on your own.
 
 We need to click on _Edit colors_ to get started editing the colors of our bundle pages.
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20editing%20colors.png)
+![Changing colors for your mix and match bundles](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20editing%20colors.png "Changing colors for your mix and match bundles")
 
 After you've clicked on the previous button, a page like this will open up allowing you to edit most of the colors on your bundle pages. The bundle that was being displayed is an example bundle which is there to give you a real-time preview of how your pages will look.
 
@@ -238,7 +237,7 @@ After you are happy with all the colors, you can just click _Save_.
 
 <h1 style={{textAlign: "justify"}}>Creating multiple mix and match bundles</h1>
 
-![](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20all%20bundles%20page%20.png)
+![NeatBundles Shopify app - My Bundles page](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20all%20bundles%20page%20.png "NeatBundles Shopify app - My Bundles page")
 
 When you navigate back to the first page in NeatBundles app, you will see your bundle along with some additional information. You can edit your current bundle or create more of them, it's your choice.
 
@@ -250,4 +249,4 @@ _You can find the page link of the individual bundle by clicking the edit button
 
 As you can see, the whole process of installing the app and configuring your first mix and match bundle was very easy. So, don't keep waiting anymore and start using mix and match bundles on your store.
 
-In this tutorial, I've shown you how to create mix and match bundles using [**NeatBundles Shopify app**](https://apps.shopify.com/neat-bundles). I need to mention that there are other Shopify apps that have similar features such as Easy Bundles or ZenBox: Bundle Builder, but as far as I know, NeatBundles is the cheapest of them all while still containing most of the essential features that everyone will need. On top of being the most affordable app, NeatBundles also offers a 30-day free trial. There is also a support team that you can reach out to.
+In this tutorial, I've shown you how to create mix and match bundles using <a href="https://apps.shopify.com/neat-bundles" target="_blank">NeatBundles Shopify app</a>. I need to mention that there are other Shopify apps that have similar features such as Easy Bundles or ZenBox: Bundle Builder, but as far as I know, NeatBundles is the cheapest of them all while still containing most of the essential features that everyone will need. On top of being the most affordable app, NeatBundles also offers a 30-day free trial. There is also a support team that you can reach out to.

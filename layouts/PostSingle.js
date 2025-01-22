@@ -26,7 +26,7 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
     <>
       <SeoMeta title={title} description={description} image={image} />
       <section className="section pt-0">
-        <div className="container flex flex-col">
+        <div className="container flex flex-col max-w-[900px]">
           <article>
             <div className="row justify-center">
               {/* <div className="lg:col-10">
@@ -42,7 +42,7 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
                 )}
               </div> */}
                 <div className="lg:col-10">
-                  {markdownify(title, "h1", "h2 mt-6")}
+                  {markdownify(title, "h1", "h1 mt-4")}
                   <div className="mt-6 flex items-center">
                     <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
                       <ImageFallback
@@ -59,7 +59,7 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
                       </p>
                     </div>
                   </div>
-                  <div className="content mb-16 mt-16 text-left">
+                  <div className="content mb-16 mt-10 text-left">
                     <MDXContent content={content} />
                   </div>
                 </div>

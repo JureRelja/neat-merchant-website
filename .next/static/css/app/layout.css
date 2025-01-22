@@ -2286,6 +2286,9 @@ select {
 .mt-9 {
   margin-top: 2.25rem;
 }
+.mt-0 {
+  margin-top: 0px;
+}
 .block {
   display: block;
 }
@@ -2355,11 +2358,17 @@ select {
 .w-full {
   width: 100%;
 }
+.w-\[800px\] {
+  width: 800px;
+}
 .max-w-\[420px\] {
   max-width: 420px;
 }
 .max-w-\[716px\] {
   max-width: 716px;
+}
+.max-w-\[900px\] {
+  max-width: 900px;
 }
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
