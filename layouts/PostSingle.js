@@ -41,15 +41,6 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
                   />
                 )}
               </div> */}
-           { youtubeVideoID &&  (
-            <div className="lg:col-10">
-                <iframe src={`https://www.youtube.com/embed/${youtubeVideoID}`} 
-                    title={title} frameborder="0" allowfullscreen
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    >
-              </iframe>
-            </div>
-           )}
                 <div className="lg:col-10">
                   {markdownify(title, "h1", "h1 mt-4")}
                   <div className="mt-6 flex items-center">
@@ -68,7 +59,15 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
                       </p>
                     </div>
                   </div>
-                  <div className="content mb-16 mt-10 text-left">
+                  {youtubeVideoID &&  (
+                    <iframe src={`https://www.youtube.com/embed/${youtubeVideoID}`} 
+                        title={title} frameborder="0" allowfullscreen
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        className="w-full h-[300px] lg:h-[400px] mt-10"
+                        >
+                  </iframe>
+                  )}
+                  <div className="content mb-16 mt-8 text-left">
                     <MDXContent content={content} />
                   </div>
                 </div>

@@ -2328,6 +2328,12 @@ select {
 .h-full {
   height: 100%;
 }
+.h-\[400px\] {
+  height: 400px;
+}
+.h-\[300px\] {
+  height: 300px;
+}
 .max-h-0 {
   max-height: 0px;
 }
@@ -3393,6 +3399,10 @@ code::after {
 
   .lg\:h-\[90px\] {
     height: 90px;
+  }
+
+  .lg\:h-\[400px\] {
+    height: 400px;
   }
 
   .lg\:w-\[320px\] {
