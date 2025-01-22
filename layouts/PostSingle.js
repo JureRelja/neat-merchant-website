@@ -29,7 +29,7 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
         <div className="container flex flex-col">
           <article>
             <div className="row justify-center">
-              <div className="lg:col-10">
+              {/* <div className="lg:col-10">
                 {image && (
                   <Image
                     src={image}
@@ -40,7 +40,7 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
                     className="fade w-full rounded-lg "
                   />
                 )}
-              </div>
+              </div> */}
                 <div className="lg:col-10">
                   {markdownify(title, "h1", "h2 mt-6")}
                   <div className="mt-6 flex items-center">
