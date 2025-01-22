@@ -12,7 +12,7 @@ import Post from "./partials/Post";
 import SeoMeta from "./partials/SeoMeta";
 
 const PostSingle = async ({ frontmatter, content, recentPosts }) => {
-  let { description, title, date, image, author } = frontmatter;
+  let { description, title, date, image, author, youtubeVideoID } = frontmatter;
   description = description ? description : content.slice(0, 120);
   const { disqus } = config;
 
@@ -41,6 +41,15 @@ const PostSingle = async ({ frontmatter, content, recentPosts }) => {
                   />
                 )}
               </div> */}
+           { youtubeVideoID &&  (
+            <div className="lg:col-10">
+                <iframe src={`https://www.youtube.com/embed/${youtubeVideoID}`} 
+                    title={title} frameborder="0" allowfullscreen
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    >
+              </iframe>
+            </div>
+           )}
                 <div className="lg:col-10">
                   {markdownify(title, "h1", "h1 mt-4")}
                   <div className="mt-6 flex items-center">

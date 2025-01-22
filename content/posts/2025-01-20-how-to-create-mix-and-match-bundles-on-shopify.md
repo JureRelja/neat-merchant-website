@@ -8,7 +8,7 @@ date: 2025-01-22
 author: jure
 image: /images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how to create
   mix and match bundles.png
-youtubeLink: http://youtu.be/LP_mPvjsM4Q
+youtubeVideoID: LP_mPvjsM4Q
 ---
 Mix and match bundles are a great way to increase the AOV (average order value) of your Shopify store. They will help you sell more products, clear inventory faster, and also improve your conversion rate, but only if done right.
 
@@ -237,7 +237,7 @@ After you've clicked on the previous button, a page like this will open up allow
 
 After you are happy with all the colors, you can just click _Save_.
 
-<h1 style="{{textAlign:" "justify"}}="">Creating multiple mix and match bundles</h1>
+<h1 style={{textAlign: "justify"}}>Creating multiple mix and match bundles</h1>
 
 ![NeatBundles Shopify app - My Bundles page](/images/blog/ARTICLE/how-to-create-mix-and-match-bundles/how%20to%20create%20mix%20and%20match%20bundles%20-%20all%20bundles%20page%20.png "NeatBundles Shopify app - My Bundles page")
 
