@@ -6,7 +6,7 @@ draft: false
 
 #### 1. Definitions
 
-This website is operated by GrowHR LLC (Doing Business As Neat Merhant). Throughout the site, the terms “we”, “us” and “our” refer to GrowHR LLC. GrowHR LLC offers this website,
+This website is operated by Neat Merchant. Throughout the site, the terms “we”, “us” and “our” refer to Neat Merchant. Neat Merchant offers this website,
 including all information, tools and Services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies
 and notices stated here.
 
