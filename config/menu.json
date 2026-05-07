@@ -23,6 +23,10 @@
       "url": "/posts"
     },
     {
+      "name": "Partnership",
+      "url": "/partnership"
+    },
+    {
       "name": "About",
       "url": "/about"
     }
@@ -35,6 +39,10 @@
     {
       "name": "Blog",
       "url": "/blog"
+    },
+    {
+      "name": "Partnership",
+      "url": "/partnership"
     },
     {
       "name": "Terms & Conditions",
